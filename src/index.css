@@ -1,13 +1,164 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "Inter";
+  src: url(./assets/fonts/Inter/Inter-VariableFont.ttf);
+  font-weight: 100 900;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Roboto";
+  src: url(./assets/fonts/Roboto/Roboto-VariableFont.ttf);
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --cal-poly-pomona-green: #1c4825;
+  --tea-green: #dbffc8;
+  --transparent-white: #fffc;
+  --mint-green: #b0ff8b;
+  --phthalo-green: #17331c;
+  --white: #fff;
+  --eerie-black: #181818;
+  --dark-charcoal: #2e2e2e;
+  --deep-moss-green: #316438;
+  --light-silver: #cfe5d2;
+  --cultured: #f7f9f8;
+  --menthol: #cfff92;
+  --honeydew: #efffe5;
+  --nickel: #727272;
+  --silver-chalice: #adadad;
+  --eucalyptus: #2cee91;
+  --vampire-black: #0b0b0b;
+  --font-inter-local: "Inter", sans-serif;
+  --font-roboto-local: "Roboto", sans-serif;
+}
+
+.bg-cal-poly-pomona-green {
+  background-color: var(--cal-poly-pomona-green) !important;
+}
+
+.bg-cultured {
+  background-color: var(--cultured) !important;
+}
+
+.bg-dark-charcoal {
+  background-color: var(--dark-charcoal) !important;
+}
+
+.bg-deep-moss-green {
+  background-color: var(--deep-moss-green) !important;
+}
+
+.bg-eerie-black {
+  background-color: var(--eerie-black) !important;
+}
+
+.bg-eucalyptus {
+  background-color: var(--eucalyptus) !important;
+}
+
+.bg-honeydew {
+  background-color: var(--honeydew) !important;
+}
+
+.bg-light-silver {
+  background-color: var(--light-silver) !important;
+}
+
+.bg-menthol {
+  background-color: var(--menthol) !important;
+}
+
+.bg-mint-green {
+  background-color: var(--mint-green) !important;
+}
+
+.bg-nickel {
+  background-color: var(--nickel) !important;
+}
+
+.bg-phthalo-green {
+  background-color: var(--phthalo-green) !important;
+}
+
+.bg-silver-chalice {
+  background-color: var(--silver-chalice) !important;
+}
+
+.bg-tea-green {
+  background-color: var(--tea-green) !important;
+}
+
+.bg-vampire-black {
+  background-color: var(--vampire-black) !important;
+}
+
+.text-cal-poly-pomona-green {
+  background-color: var(--cal-poly-pomona-green) !important;
+}
+
+.text-cultured {
+  background-color: var(--cultured) !important;
+}
+
+.text-dark-charcoal {
+  background-color: var(--dark-charcoal) !important;
+}
+
+.text-deep-moss-green {
+  background-color: var(--deep-moss-green) !important;
+}
+
+.text-eerie-black {
+  background-color: var(--eerie-black) !important;
+}
+
+.text-eucalyptus {
+  background-color: var(--eucalyptus) !important;
+}
+
+.text-honeydew {
+  background-color: var(--honeydew) !important;
+}
+
+.text-light-silver {
+  background-color: var(--light-silver) !important;
+}
+
+.text-menthol {
+  background-color: var(--menthol) !important;
+}
+
+.text-mint-green {
+  background-color: var(--mint-green) !important;
+}
+
+.text-nickel {
+  background-color: var(--nickel) !important;
+}
+
+.text-phthalo-green {
+  background-color: var(--phthalo-green) !important;
+}
+
+.text-silver-chalice {
+  background-color: var(--silver-chalice) !important;
+}
+
+.text-tea-green {
+  background-color: var(--tea-green) !important;
+}
+
+.text-vampire-black {
+  background-color: var(--vampire-black) !important;
+}
+
+.font-inter {
+  font-family: var(--font-inter-local) !important;
+}
+
+.font-roboto {
+  font-family: var(--font-roboto-local) !important;
 }
