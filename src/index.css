@@ -159,9 +159,21 @@
   font-size: 14px !important;
 }
 
+.border-light-silver {
+  border: 1px solid var(--light-silver) !important;
+}
+
+.max-w-500 {
+  max-width: 500px !important;
+}
+
 body {
   color: var(--dark-charcoal) !important;
   font-family: var(--font-inter-local) !important;
   font-size: 1rem !important;
   font-weight: 400 !important;
+}
+
+section {
+  padding: 4rem 5%;
 }
