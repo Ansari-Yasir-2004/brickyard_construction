@@ -5,14 +5,6 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: "Roboto";
-  src: url(./assets/fonts/Roboto/Roboto-VariableFont.ttf);
-  font-weight: 100 900;
-  font-style: normal;
-  font-display: swap;
-}
-
 :root {
   --cal-poly-pomona-green: #1c4825;
   --tea-green: #dbffc8;
@@ -159,6 +151,9 @@
   font-family: var(--font-inter-local) !important;
 }
 
-.font-roboto {
-  font-family: var(--font-roboto-local) !important;
+body {
+  color: var(--dark-charcoal);
+  font-family: var(--font-inter-local);
+  font-size: 1rem;
+  font-weight: 400;
 }
