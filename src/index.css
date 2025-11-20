@@ -23,6 +23,7 @@
   --silver-chalice: #adadad;
   --eucalyptus: #2cee91;
   --vampire-black: #0b0b0b;
+  --silver-chalice: #adadad;
   --font-inter-local: "Inter", sans-serif;
   --font-roboto-local: "Roboto", sans-serif;
 }
@@ -167,8 +168,24 @@
   border: 1px solid var(--light-silver) !important;
 }
 
+.border-silver-chalice {
+  border: 1px solid var(--silver-chalice) !important;
+}
+
+@media screen and (min-width: 992px) {
+  .border-lg-0 {
+    border: none !important;
+  }
+}
+
 .max-w-500 {
   max-width: 500px !important;
+}
+
+@media screen and (min-width: 992px) {
+  .rounded-lg-pill {
+    border-radius: var(--bs-border-radius-pill) !important;
+  }
 }
 
 body {
@@ -178,8 +195,38 @@ body {
   font-weight: 400 !important;
 }
 
-section {
-  padding: 4rem 5%;
+a {
+  text-decoration: none !important;
+}
+
+/***************************** HEADER CSSS *****************************/
+
+.company-logo {
+  max-width: 142px;
+}
+
+@media screen and (min-width: 768px) {
+  .company-logo {
+    max-width: 180px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .company-logo {
+    max-width: 200px;
+  }
+}
+
+.nav-btn {
+  transition: all 0.4s ease !important;
+}
+
+.nav-btn:hover {
+  transform: scale(1.07);
+}
+
+.navbar-nav .nav-link.active {
+  background-color: var(--tea-green) !important;
 }
 
 

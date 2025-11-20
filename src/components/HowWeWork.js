@@ -2,7 +2,7 @@ import React from "react";
 import ContentHeadCapsul from "./ContentHeadCapsul";
 import ContentTitle from "./ContentTitle";
 import PauseOnHover from "./PauseOnHover";
-import { worker } from "../assets/data";
+import { worker } from "../data";
 import { Container } from "react-bootstrap";
 
 const HowWeWork = () => {

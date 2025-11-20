@@ -3,7 +3,7 @@ import ContentHeadCapsul from "./ContentHeadCapsul";
 import ContentTitle from "./ContentTitle";
 import ContentPara from "./ContentPara";
 import PauseOnHover from "./PauseOnHover";
-import { ourTeam } from "../assets/data";
+import { ourTeam } from "../data";
 import { Container } from "react-bootstrap";
 
 const OurTeam = () => {

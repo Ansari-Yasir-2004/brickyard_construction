@@ -1,12 +1,35 @@
-import CustomerImg1 from "../assets/images/webp/customer-img-1.webp";
-import MemberImage1 from "../assets/images/webp/our-team-img-1.webp";
-import MemberImage2 from "../assets/images/webp/our-team-img-2.webp";
-import MemberImage3 from "../assets/images/webp/our-team-img-3.webp";
-import MemberImage4 from "../assets/images/webp/our-team-img-4.webp";
-import workimage1 from "../assets/images/webp/work-image-1.webp";
-import workimage2 from "../assets/images/webp/work-image-2.webp";
-import workimage3 from "../assets/images/webp/work-image-3.webp";
-import workimage4 from "../assets/images/webp/work-image-4.webp";
+import CustomerImg1 from "./assets/images/webp/customer-img-1.webp";
+import MemberImage1 from "./assets/images/webp/our-team-img-1.webp";
+import MemberImage2 from "./assets/images/webp/our-team-img-2.webp";
+import MemberImage3 from "./assets/images/webp/our-team-img-3.webp";
+import MemberImage4 from "./assets/images/webp/our-team-img-4.webp";
+import workimage1 from "./assets/images/webp/work-image-1.webp";
+import workimage2 from "./assets/images/webp/work-image-2.webp";
+import workimage3 from "./assets/images/webp/work-image-3.webp";
+import workimage4 from "./assets/images/webp/work-image-4.webp";
+
+export const navLinks = [
+  {
+    id: 1,
+    path: "/about",
+    label: "about",
+  },
+  {
+    id: 1,
+    path: "/service",
+    label: "service",
+  },
+  {
+    id: 1,
+    path: "/projects",
+    label: "projects",
+  },
+  {
+    id: 1,
+    path: "/blog",
+    label: "blog",
+  },
+];
 
 export const customerReview = [
   {
