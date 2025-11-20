@@ -1,4 +1,12 @@
 import CustomerImg1 from "../assets/images/webp/customer-img-1.webp";
+import MemberImage1 from "../assets/images/webp/our-team-img-1.webp";
+import MemberImage2 from "../assets/images/webp/our-team-img-2.webp";
+import MemberImage3 from "../assets/images/webp/our-team-img-3.webp";
+import MemberImage4 from "../assets/images/webp/our-team-img-4.webp";
+import workimage1 from "../assets/images/webp/work-image-1.webp";
+import workimage2 from "../assets/images/webp/work-image-2.webp";
+import workimage3 from "../assets/images/webp/work-image-3.webp";
+import workimage4 from "../assets/images/webp/work-image-4.webp";
 
 export const customerReview = [
   {
@@ -64,5 +72,60 @@ export const customerReview = [
     customerImage: CustomerImg1,
     customerName: "Esther Howard",
     customerDesignation: "Founder, Navana",
+  },
+];
+
+export const ourTeam = [
+  {
+    id: 1,
+    image: MemberImage1,
+    name: "Kamal Verma",
+    designation: "Construction Manager",
+  },
+  {
+    id: 2,
+    image: MemberImage2,
+    name: "Richard Warner",
+    designation: "Building Worker",
+  },
+  {
+    id: 3,
+    image: MemberImage3,
+    name: "Vinayak Kamble",
+    designation: "Project Manager",
+  },
+  {
+    id: 4,
+    image: MemberImage4,
+    name: "Md Hussain",
+    designation: "Civil Engineer",
+  },
+];
+
+export const worker = [
+  {
+    id: 1,
+    image: workimage1,
+    title: "Planning",
+    para: "At BrickYard, our planning process is the foundation of every successful project. We begin by listening closely to our clients, understanding their vision, goals, and requirements.",
+  },
+  {
+    id: 2,
+    image: workimage2,
+    title: "Development",
+    para: "In the development process at BrickYard, we bring plans to life with a focus on quality and efficiency. Our skilled team ensures that every detail aligns with our clients’ vision.",
+  },
+  {
+    id: 3,
+    image: workimage3,
+    title: "Construction",
+    para: "The construction process at BrickYard is where vision meets execution. Our dedicated team work in detailed plans into tangible ensuring every phase is executed with precision and care.",
+  },
+  {
+    id: 4,
+    image: workimage4,
+    title: "Handover",
+    para: "At BrickYard, the handover process marks the culmination of our commitment to quality and client satisfaction. Once construction is complete, we conduct a thorough walkthrough with our clients."
+
   },
 ];

@@ -1,8 +1,8 @@
 import React from 'react'
 
-const ContentPara = ({children}) => {
+const ContentPara = ({children ,textColor}) => {
   return (
-   <p className='text-nickel mb-4'>
+   <p className={`${textColor} mb-4`}>
     {children}
    </p>
   )
