@@ -88,59 +88,59 @@
 }
 
 .text-cal-poly-pomona-green {
-  background-color: var(--cal-poly-pomona-green) !important;
+  color: var(--cal-poly-pomona-green) !important;
 }
 
 .text-cultured {
-  background-color: var(--cultured) !important;
+  color: var(--cultured) !important;
 }
 
 .text-dark-charcoal {
-  background-color: var(--dark-charcoal) !important;
+  color: var(--dark-charcoal) !important;
 }
 
 .text-deep-moss-green {
-  background-color: var(--deep-moss-green) !important;
+  color: var(--deep-moss-green) !important;
 }
 
 .text-eerie-black {
-  background-color: var(--eerie-black) !important;
+  color: var(--eerie-black) !important;
 }
 
 .text-eucalyptus {
-  background-color: var(--eucalyptus) !important;
+  color: var(--eucalyptus) !important;
 }
 
 .text-honeydew {
-  background-color: var(--honeydew) !important;
+  color: var(--honeydew) !important;
 }
 
 .text-light-silver {
-  background-color: var(--light-silver) !important;
+  color: var(--light-silver) !important;
 }
 
 .text-menthol {
-  background-color: var(--menthol) !important;
+  color: var(--menthol) !important;
 }
 
 .text-mint-green {
-  background-color: var(--mint-green) !important;
+  color: var(--mint-green) !important;
 }
 
 .text-nickel {
-  background-color: var(--nickel) !important;
+  color: var(--nickel) !important;
 }
 
 .text-phthalo-green {
-  background-color: var(--phthalo-green) !important;
+  color: var(--phthalo-green) !important;
 }
 
 .text-silver-chalice {
-  background-color: var(--silver-chalice) !important;
+  color: var(--silver-chalice) !important;
 }
 
 .text-tea-green {
-  background-color: var(--tea-green) !important;
+  color: var(--tea-green) !important;
 }
 
 .text-vampire-black {
@@ -151,9 +151,17 @@
   font-family: var(--font-inter-local) !important;
 }
 
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.fs-14 {
+  font-size: 14px !important;
+}
+
 body {
-  color: var(--dark-charcoal);
-  font-family: var(--font-inter-local);
-  font-size: 1rem;
-  font-weight: 400;
+  color: var(--dark-charcoal) !important;
+  font-family: var(--font-inter-local) !important;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
 }
