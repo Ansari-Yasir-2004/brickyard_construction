@@ -1,4 +1,27 @@
-import CustomerImg1 from "../assets/images/webp/customer-img-1.webp";
+import CustomerImg1 from "./assets/images/webp/customer-img-1.webp";
+
+export const navLinks = [
+  {
+    id: 1,
+    path: "/about",
+    label: "about",
+  },
+  {
+    id: 1,
+    path: "/service",
+    label: "service",
+  },
+  {
+    id: 1,
+    path: "/projects",
+    label: "projects",
+  },
+  {
+    id: 1,
+    path: "/blog",
+    label: "blog",
+  },
+];
 
 export const customerReview = [
   {
