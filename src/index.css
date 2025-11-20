@@ -155,6 +155,10 @@
   font-weight: 500 !important;
 }
 
+.fw-600 {
+  font-weight: 600 !important;
+}
+
 .fs-14 {
   font-size: 14px !important;
 }
