@@ -9,7 +9,7 @@ import { Container } from "react-bootstrap";
 
 const Testimonials = () => {
   return (
-    <section>
+    <section className="section">
       <Container>
         <div className="max-w-500 mx-auto text-center mb-5">
           <ContentHeadCapsul>Testimonials</ContentHeadCapsul>

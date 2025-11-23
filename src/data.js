@@ -7,6 +7,10 @@ import workimage1 from "./assets/images/webp/work-image-1.webp";
 import workimage2 from "./assets/images/webp/work-image-2.webp";
 import workimage3 from "./assets/images/webp/work-image-3.webp";
 import workimage4 from "./assets/images/webp/work-image-4.webp";
+import OurServiceImg1 from "./assets/images/webp/our-service-img-1.webp";
+import OurServiceImg2 from "./assets/images/webp/our-service-img-2.webp";
+import OurServiceImg3 from "./assets/images/webp/our-service-img-3.webp";
+import OurServiceImg4 from "./assets/images/webp/our-service-img-4.webp";
 
 export const navLinks = [
   {
@@ -148,7 +152,33 @@ export const worker = [
     id: 4,
     image: workimage4,
     title: "Handover",
-    para: "At BrickYard, the handover process marks the culmination of our commitment to quality and client satisfaction. Once construction is complete, we conduct a thorough walkthrough with our clients."
+    para: "At BrickYard, the handover process marks the culmination of our commitment to quality and client satisfaction. Once construction is complete, we conduct a thorough walkthrough with our clients.",
+  },
+];
 
+export const ourServices = [
+  {
+    id: 1,
+    image: OurServiceImg1,
+    title: "Residential Construction",
+    para: "Lorem ipsum dolor sit amet consectetur. Dictum rhoncus id sed ullamcorper amet aliquam.......",
+  },
+  {
+    id: 2,
+    image: OurServiceImg2,
+    title: "Structrual Engineering",
+    para: "Lorem ipsum dolor sit amet consectetur. Dictum rhoncus id sed ullamcorper amet aliquam.......",
+  },
+  {
+    id: 3,
+    image: OurServiceImg3,
+    title: "Commercial Construction",
+    para: "Lorem ipsum dolor sit amet consectetur. Dictum rhoncus id sed ullamcorper amet aliquam.......",
+  },
+  {
+    id: 4,
+    image: OurServiceImg4,
+    title: "Home Interior Design",
+    para: "Lorem ipsum dolor sit amet consectetur. Dictum rhoncus id sed ullamcorper amet aliquam.......",
   },
 ];
