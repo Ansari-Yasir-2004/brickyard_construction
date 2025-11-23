@@ -25,6 +25,7 @@
   --vampire-black: #0b0b0b;
   --silver-chalice: #adadad;
   --philippine-gray: #8a8a8a;
+  --lotion: #fbfcfb;
   --font-inter-local: "Inter", sans-serif;
   --font-roboto-local: "Roboto", sans-serif;
 }
@@ -246,7 +247,7 @@ ul > li {
   transform: scale(1.07);
 }
 
-/* .nav-btn-2,
+.nav-btn-2,
 .nav-btn-2-arrow {
   transition: all 0.2s ease !important;
 }
@@ -257,7 +258,7 @@ ul > li {
 
 .nav-btn-2:hover .nav-btn-2-arrow {
   transform: rotate(-45deg);
-} */
+}
 
 /***************************** HEADER CSSS *****************************/
 
@@ -294,4 +295,94 @@ ul > li {
 /************************************ HowWeWork  **************************/
 .worker-image {
   width: 58px;
+}
+
+/*************************************Consulation *****************************/
+
+.main-container {
+  height: 580px;
+  width: 100%;
+}
+
+.man-image {
+  right: 0;
+  top: -7%;
+  width: 50%;
+}
+.sub-title-line {
+  width: 42px;
+  height: 1px;
+  padding: 0.8px;
+  border-radius: 8px;
+  background-color: var(--deep-moss-green);
+}
+
+/****************************************** Service Image **************************************/
+.service-image {
+  overflow: hidden;
+}
+
+.service-img {
+  transition: transform 0.4s ease;
+  display: block;
+  width: 100%;
+}
+
+.service-section:hover .service-img {
+  transform: scale(1.1);
+}
+
+/***************************************** Project ***************************************/
+
+.project-image {
+  overflow: hidden;
+}
+
+.project-img {
+  transition: transform 0.4s ease;
+  display: block;
+  width: 100%;
+}
+
+.project-section:hover .project-img {
+  transform: scale(1.1);
+}
+
+/******************************************** Our Shop ********************************************/
+.shop-image {
+  overflow: hidden;
+}
+
+.shop-img {
+  transition: transform 0.4s ease;
+  display: block;
+  width: 100%;
+}
+
+.shop-section:hover .shop-img {
+  transform: scale(1.1);
+}
+
+.shop-text a {
+  color: var(--deep-moss-green);
+  font-size: 18px;
+}
+.cart-icon {
+  background-color: var(--tea-green);
+  padding: 10px;
+}
+
+/************************************************** Our Blog *********************************/
+.blog-image {
+  overflow: hidden;
+}
+
+.blog-img {
+  transition: transform 0.4s ease;
+  display: block;
+  width: 100%;
+}
+
+.blog-section:hover .blog-img {
+  transform: scale(1.1);
 }

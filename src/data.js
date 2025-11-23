@@ -11,6 +11,37 @@ import OurServiceImg1 from "./assets/images/webp/our-service-img-1.webp";
 import OurServiceImg2 from "./assets/images/webp/our-service-img-2.webp";
 import OurServiceImg3 from "./assets/images/webp/our-service-img-3.webp";
 import OurServiceImg4 from "./assets/images/webp/our-service-img-4.webp";
+import serviceimg1 from "./assets/images/webp/service-image-1.webp";
+import serviceimg2 from "./assets/images/webp/service-image-2.webp";
+import serviceimg3 from "./assets/images/webp/service-image-3.webp";
+import serviceimg4 from "./assets/images/webp/service-image-4.webp";
+import serviceimg5 from "./assets/images/webp/service-image-5.webp";
+import serviceimg6 from "./assets/images/webp/service-image-6.webp";
+import projectimg1 from "./assets/images/webp/project-image-1.webp";
+import projectimg2 from "./assets/images/webp/project-image-2.webp";
+import projectimg3 from "./assets/images/webp/project-image-3.webp";
+import projectimg4 from "./assets/images/webp/project-image-4.webp";
+import projectimg5 from "./assets/images/webp/project-image-5.webp";
+import projectimg6 from "./assets/images/webp/project-image-6.webp";
+import projectimg7 from "./assets/images/webp/project-image-7.webp";
+import projectimg8 from "./assets/images/webp/project-image-8.webp";
+import shopimg1 from "./assets/images/webp/shop-image-1.webp";
+import shopimg2 from "./assets/images/webp/shop-image-2.webp";
+import shopimg3 from "./assets/images/webp/shop-image-3.webp";
+import shopimg4 from "./assets/images/webp/shop-image-4.webp";
+import shopimg5 from "./assets/images/webp/shop-image-5.webp";
+import shopimg6 from "./assets/images/webp/shop-image-6.webp";
+import shopimg7 from "./assets/images/webp/shop-image-7.webp";
+import shopimg8 from "./assets/images/webp/shop-image-8.webp";
+import shopimg9 from "./assets/images/webp/shop-image-9.webp";
+import blogimg1 from "./assets/images/webp/blog-image-1.webp"
+import blogimg2 from "./assets/images/webp/blog-image-2.webp"
+import blogimg3 from "./assets/images/webp/blog-image-3.webp"
+import blogimg4 from "./assets/images/webp/blog-image-4.webp"
+import blogimg5 from "./assets/images/webp/blog-image-5.webp"
+import blogimg6 from "./assets/images/webp/blog-image-6.webp"
+import blogimg7 from "./assets/images/webp/blog-image-7.webp"
+import blogimg8 from "./assets/images/webp/blog-image-8.webp"
 
 export const navLinks = [
   {
@@ -19,17 +50,23 @@ export const navLinks = [
     label: "about",
   },
   {
-    id: 1,
+    id: 2,
     path: "/service",
     label: "service",
   },
   {
-    id: 1,
+    id: 3,
     path: "/projects",
     label: "projects",
   },
+  // {
+  //   id:4,
+  //   path:"/shop",
+  //   label:"shop"
+
+  // },
   {
-    id: 1,
+    id: 4,
     path: "/blog",
     label: "blog",
   },
@@ -182,3 +219,189 @@ export const ourServices = [
     para: "Lorem ipsum dolor sit amet consectetur. Dictum rhoncus id sed ullamcorper amet aliquam.......",
   },
 ];
+
+export const ourService = [
+  {
+    id: 1,
+    image: serviceimg1,
+    title: "Renovation & Remodeling",
+  },
+  {
+    id: 2,
+    image: serviceimg2,
+    title: "Commercial Construction",
+  },
+  {
+    id: 3,
+    image: serviceimg3,
+    title: "Home Interior Design",
+  },
+  {
+    id: 4,
+    image: serviceimg4,
+    title: "Structural Engineering",
+  },
+  {
+    id: 5,
+    image: serviceimg5,
+    title: "Foundation Construction",
+  },
+  {
+    id: 6,
+    image: serviceimg6,
+    title: "Residential Construction",
+  },
+];
+
+export const ourProject = [
+  {
+    id: 1,
+    image: projectimg1,
+    linktext: "Industrial Construction New York, NY",
+    title: "Greenfield Industrial Park",
+  },
+  {
+    id: 2,
+    image: projectimg2,
+    linktext: "Institutional Building Chicago, IL",
+    title: "Metro Convention Center",
+  },
+  {
+    id: 3,
+    image: projectimg3,
+    linktext: "Educational Facility Grorgia, USA",
+    title: "Sunrise International School",
+  },
+  {
+    id: 4,
+    image: projectimg4,
+    linktext: "Commercial San Francisco, CA",
+    title: "CityHub Tower",
+  },
+  {
+    id: 5,
+    image: projectimg5,
+    linktext: "Residential Apartments New York, NY",
+    title: "Skyline Residences",
+  },
+  {
+    id: 6,
+    image: projectimg6,
+    linktext: "Hospitality Project Orlando, FL",
+    title: "Horizon Hotel & Resort",
+  },
+  {
+    id: 7,
+    image: projectimg7,
+    linktext: "Residential Apartments Miami, FL",
+    title: "Central Plaza Mall",
+  },
+  {
+    id: 8,
+    image: projectimg8,
+    linktext: "Commercial Austin,TX",
+    title: "Riverside Villa",
+  },
+];
+
+export const ourShop = [
+  {
+    id: 1,
+    image: shopimg1,
+    title: "Klein Tools Screwdriver",
+    para: "$ 79.00 USD",
+  },
+
+  {
+    id: 2,
+    image: shopimg2,
+    title: "Leather Multitool Sheath",
+    para: "$ 254.00 USD",
+  },
+  {
+    id: 3,
+    image: shopimg3,
+    title: "Heavy Duty - Metal Seamer",
+    para: "$ 149.00 USD",
+  },
+  {
+    id: 4,
+    image: shopimg4,
+    title: "Hurricane Metal Cutter",
+    para: "$ 100.00 USD",
+  },
+  {
+    id: 5,
+    image: shopimg5,
+    title: "Dewalt: Chalk Reel",
+    para: "$ 45.99 USD",
+  },
+  {
+    id: 6,
+    image: shopimg6,
+    title: "Framming Spec Hammer",
+    para: "$ 30.00 USD",
+  },
+  {
+    id: 7,
+    image: shopimg7,
+    title: "Scaffolding Set",
+    para: "$ 45.99 USD",
+  },
+  {
+    id: 8,
+    image: shopimg8,
+    title: "Multi-Purpose Range",
+    para: "$ 25.99 USD",
+  },
+  {
+    id: 9,
+    image: shopimg9,
+    title: "Heavy-Duty Hammer",
+    para: "$ 45.99 USD $ 55.32 USD",
+  },
+];
+
+export const ourBlog =[
+  {
+    id:1,
+    image:blogimg1,
+    title:"Innovative Trends in Modern Architecture and Building Design"
+  },
+   {
+    id:2,
+    image:blogimg2,
+    title:"How to Choose the Right Contractor for Your Next Construction Project"
+  },
+   {
+    id:3,
+    image:blogimg3,
+    title:"Residential vs. Commercial Construction: Key Differences You Need to Know"
+  },
+   {
+    id:4,
+    image:blogimg4,
+    title:"The Role of Project Management in Delivering Construction Projects on Time"
+  },
+   {
+    id:5,
+    image:blogimg5,
+    title:"The Importance of Foundation Design: Building a Strong and Safe Structure"
+  },
+   {
+    id:6,
+    image:blogimg6,
+    title:"The Top 5 Mistakes to Avoid When Starting a Construction Project"
+  },
+   {
+    id:7,
+    image:blogimg7,
+    title:"Sustainable Construction: How Green Building Materials are Shaping the Future"
+  },
+   {
+    id:8,
+    image:blogimg8,
+    title:"Harnessing technology and sustainability for future-proof development"
+  },
+
+]

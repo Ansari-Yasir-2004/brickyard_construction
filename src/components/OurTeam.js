@@ -8,7 +8,7 @@ import { Container } from "react-bootstrap";
 
 const OurTeam = () => {
   return (
-   <section  className="bg-cultured">
+   <section  className="bg-cultured section">
      <Container>
       <div className="text-center">
         <ContentHeadCapsul>Our Team</ContentHeadCapsul>
