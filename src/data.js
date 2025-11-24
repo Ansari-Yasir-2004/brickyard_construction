@@ -34,14 +34,14 @@ import shopimg6 from "./assets/images/webp/shop-image-6.webp";
 import shopimg7 from "./assets/images/webp/shop-image-7.webp";
 import shopimg8 from "./assets/images/webp/shop-image-8.webp";
 import shopimg9 from "./assets/images/webp/shop-image-9.webp";
-import blogimg1 from "./assets/images/webp/blog-image-1.webp"
-import blogimg2 from "./assets/images/webp/blog-image-2.webp"
-import blogimg3 from "./assets/images/webp/blog-image-3.webp"
-import blogimg4 from "./assets/images/webp/blog-image-4.webp"
-import blogimg5 from "./assets/images/webp/blog-image-5.webp"
-import blogimg6 from "./assets/images/webp/blog-image-6.webp"
-import blogimg7 from "./assets/images/webp/blog-image-7.webp"
-import blogimg8 from "./assets/images/webp/blog-image-8.webp"
+import blogimg1 from "./assets/images/webp/blog-image-1.webp";
+import blogimg2 from "./assets/images/webp/blog-image-2.webp";
+import blogimg3 from "./assets/images/webp/blog-image-3.webp";
+import blogimg4 from "./assets/images/webp/blog-image-4.webp";
+import blogimg5 from "./assets/images/webp/blog-image-5.webp";
+import blogimg6 from "./assets/images/webp/blog-image-6.webp";
+import blogimg7 from "./assets/images/webp/blog-image-7.webp";
+import blogimg8 from "./assets/images/webp/blog-image-8.webp";
 
 export const navLinks = [
   {
@@ -362,46 +362,98 @@ export const ourShop = [
   },
 ];
 
-export const ourBlog =[
+export const ourBlog = [
   {
-    id:1,
-    image:blogimg1,
-    title:"Innovative Trends in Modern Architecture and Building Design"
+    id: 1,
+    image: blogimg1,
+    title: "Innovative Trends in Modern Architecture and Building Design",
   },
-   {
-    id:2,
-    image:blogimg2,
-    title:"How to Choose the Right Contractor for Your Next Construction Project"
+  {
+    id: 2,
+    image: blogimg2,
+    title:
+      "How to Choose the Right Contractor for Your Next Construction Project",
   },
-   {
-    id:3,
-    image:blogimg3,
-    title:"Residential vs. Commercial Construction: Key Differences You Need to Know"
+  {
+    id: 3,
+    image: blogimg3,
+    title:
+      "Residential vs. Commercial Construction: Key Differences You Need to Know",
   },
-   {
-    id:4,
-    image:blogimg4,
-    title:"The Role of Project Management in Delivering Construction Projects on Time"
+  {
+    id: 4,
+    image: blogimg4,
+    title:
+      "The Role of Project Management in Delivering Construction Projects on Time",
   },
-   {
-    id:5,
-    image:blogimg5,
-    title:"The Importance of Foundation Design: Building a Strong and Safe Structure"
+  {
+    id: 5,
+    image: blogimg5,
+    title:
+      "The Importance of Foundation Design: Building a Strong and Safe Structure",
   },
-   {
-    id:6,
-    image:blogimg6,
-    title:"The Top 5 Mistakes to Avoid When Starting a Construction Project"
+  {
+    id: 6,
+    image: blogimg6,
+    title: "The Top 5 Mistakes to Avoid When Starting a Construction Project",
   },
-   {
-    id:7,
-    image:blogimg7,
-    title:"Sustainable Construction: How Green Building Materials are Shaping the Future"
+  {
+    id: 7,
+    image: blogimg7,
+    title:
+      "Sustainable Construction: How Green Building Materials are Shaping the Future",
   },
-   {
-    id:8,
-    image:blogimg8,
-    title:"Harnessing technology and sustainability for future-proof development"
+  {
+    id: 8,
+    image: blogimg8,
+    title:
+      "Harnessing technology and sustainability for future-proof development",
   },
+];
 
-]
+export const featuredProjects = [
+  {
+    id: 1,
+    image: projectimg1,
+    linktext: "Industrial Construction",
+    title: "Greenfield Industrial Park",
+  },
+  {
+    id: 2,
+    image: projectimg2,
+    linktext: "Institutional Building",
+    title: "Metro Convention Center",
+  },
+  {
+    id: 3,
+    image: projectimg3,
+    linktext: "Educational Facility",
+    title: "Sunrise International School",
+  },
+];
+
+export const latestNews = [
+  {
+    id: 1,
+    image: blogimg1,
+    title: "Innovative Trends in Modern Architecture and Building Design",
+    description:
+      "Lorem ipsum dolor sit amet consectetur. Non sapien mattis adipiscing aliquam. Adipiscing vitae non sagittis odio faucibus vel sed.",
+  },
+  {
+    id: 2,
+    image: blogimg2,
+    title:
+      "How to Choose the Right Contractor for Your Next Construction Project",
+    description:
+      "Lorem ipsum dolor sit amet consectetur. Non sapien mattis adipiscing aliquam. Adipiscing vitae non sagittis odio faucibus vel sed.",
+  },
+  {
+    id: 3,
+    image: blogimg3,
+    title:
+      "Residential vs. Commercial Construction: Key Differences You Need to Know",
+    description:
+      "Lorem ipsum dolor sit amet consectetur. Non sapien mattis adipiscing aliquam. Adipiscing vitae non sagittis odio faucibus vel sed.",
+  },
+];

@@ -12,7 +12,7 @@ import ContentPara from "../components/ContentPara";
 import HomeIcon from "../assets/images/webp/home-icon.webp";
 import BuildingIcon from "../assets/images/webp/building-icon.webp";
 import HomeInteriorIcon from "../assets/images/webp/home-interior-icon.webp";
-import { ourServices } from "../data";
+import { featuredProjects, latestNews, ourServices } from "../data";
 import WhyChooseUsImg from "../assets/images/webp/why-choose-us-img.webp";
 import WhyChooseUsIcon1 from "../assets/images/webp/why-choose-us-icon-1.webp";
 import WhyChooseUsIcon2 from "../assets/images/webp/why-choose-us-icon-2.webp";
@@ -20,6 +20,7 @@ import WhyChooseUsIcon3 from "../assets/images/webp/why-choose-us-icon-3.webp";
 import WhyChooseUsIcon4 from "../assets/images/webp/why-choose-us-icon-4.webp";
 import OurTeam from "../components/OurTeam";
 import Consultation from "../components/Consultation";
+import icon from "../assets/images/svg/service-icon.svg";
 
 const Home = () => {
   return (
@@ -312,6 +313,93 @@ const Home = () => {
       </section>
       <OurTeam />
       <Testimonials />
+      <section className="bg-lotion section">
+        <Container>
+          <div className="mb-4">
+            <ContentHeadCapsul>Featured Projects</ContentHeadCapsul>
+            <div className="d-flex justify-content-between align-items-center">
+              <ContentTitle>
+                Proudly Presenting Our{" "}
+                <span className="text-deep-moss-green">Finest Projects</span>
+              </ContentTitle>
+              <SecondaryBtn
+                label={"Explore Projects"}
+                color={"text-eerie-black"}
+              />
+            </div>
+          </div>
+          <Row>
+            {featuredProjects &&
+              featuredProjects.map((project) => (
+                <Col key={project.id} md={4}>
+                  <div className="project-section cursor-pointer">
+                    <div className="overflow-hidden">
+                      <img
+                        className="project-img img-fluid"
+                        src={project.image}
+                        alt={project.title}
+                      />
+                    </div>
+                    <a
+                      href="/"
+                      className="bg-cultured text-deep-moss-green fw-500 fs-14 rounded-1 p-2 mt-4 d-inline-block"
+                    >
+                      {project.linktext}
+                    </a>
+                    <div className="d-flex justify-content-between align-items-center mt-2 mb-3">
+                      <h5 className="h4 m-0 text-phthalo-green fw-600">
+                        {project.title}
+                      </h5>
+                      <img src={icon} alt="icon" width="24px" />
+                    </div>
+                    <div className="border-silver-chalice border-top-0"></div>
+                  </div>
+                </Col>
+              ))}
+          </Row>
+        </Container>
+      </section>
+      <section className="section">
+        <Container>
+          <div className="max-w-500 mx-auto text-center mb-5">
+            <ContentHeadCapsul>Latest News</ContentHeadCapsul>
+            <ContentTitle>Stay Informed with Our Latest Blogs</ContentTitle>
+            <ContentPara textColor={"text-dark-charcoal"}>
+              Discover Construction Trends: Uncover Insights and Innovations in
+              Our Latest Blog.
+            </ContentPara>
+          </div>
+          <Row>
+            {latestNews &&
+              latestNews.map((blog) => (
+                <Col key={blog.id} md={4}>
+                  <div className="cursor-pointer">
+                    <div className="blog-section overflow-hidden">
+                      <img
+                        className="blog-img img-fluid"
+                        src={blog.image}
+                        alt="blog"
+                      />
+                    </div>
+                    <p className="mb-0 mt-3 text-deep-moss-green">
+                      November 24 ,2024
+                    </p>
+                    <div className="d-flex justify-content-between align-items-end mt-2 mb-4">
+                      <h5 className="h4 mb-0 me-2 text-eerie-black fw-600">
+                        {blog.title}
+                      </h5>
+                      <img src={icon} alt="icon" width="24px" />
+                    </div>
+                    <div className="border-silver-chalice border-top-0"></div>
+                    <p className="text-dark-charcoal mt-3 mb-0">
+                      {blog.description}
+                    </p>
+                  </div>
+                </Col>
+              ))}
+          </Row>
+        </Container>
+      </section>
       <Consultation />
     </div>
   );

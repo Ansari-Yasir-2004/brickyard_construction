@@ -9,7 +9,7 @@ const HowWeWork = () => {
   return (
     <section className="section">
       <Container>
-        <div className="text-center">
+        <div className="text-center mb-5">
           <ContentHeadCapsul>How We Work?</ContentHeadCapsul>
           <ContentTitle>
             Built on <span className="text-deep-moss-green">Precision</span>{" "}
