@@ -233,6 +233,10 @@ ul > li {
   padding: 64px 0px;
 }
 
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
 /****************************** PRIMARY AND SECONDARY BTN *****************************/
 
 .navbar-nav .nav-link.active {
@@ -318,14 +322,9 @@ ul > li {
 }
 
 /****************************************** Service Image **************************************/
-.service-image {
-  overflow: hidden;
-}
 
 .service-img {
   transition: transform 0.4s ease;
-  display: block;
-  width: 100%;
 }
 
 .service-section:hover .service-img {
@@ -334,14 +333,8 @@ ul > li {
 
 /***************************************** Project ***************************************/
 
-.project-image {
-  overflow: hidden;
-}
-
 .project-img {
   transition: transform 0.4s ease;
-  display: block;
-  width: 100%;
 }
 
 .project-section:hover .project-img {
@@ -349,7 +342,8 @@ ul > li {
 }
 
 /******************************************** Our Shop ********************************************/
-.shop-image {
+
+/* .shop-image {
   overflow: hidden;
 }
 
@@ -367,20 +361,16 @@ ul > li {
   color: var(--deep-moss-green);
   font-size: 18px;
 }
+
 .cart-icon {
   background-color: var(--tea-green);
   padding: 10px;
-}
+} */
 
 /************************************************** Our Blog *********************************/
-.blog-image {
-  overflow: hidden;
-}
 
 .blog-img {
   transition: transform 0.4s ease;
-  display: block;
-  width: 100%;
 }
 
 .blog-section:hover .blog-img {

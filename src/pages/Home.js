@@ -18,6 +18,8 @@ import WhyChooseUsIcon1 from "../assets/images/webp/why-choose-us-icon-1.webp";
 import WhyChooseUsIcon2 from "../assets/images/webp/why-choose-us-icon-2.webp";
 import WhyChooseUsIcon3 from "../assets/images/webp/why-choose-us-icon-3.webp";
 import WhyChooseUsIcon4 from "../assets/images/webp/why-choose-us-icon-4.webp";
+import OurTeam from "../components/OurTeam";
+import Consultation from "../components/Consultation";
 
 const Home = () => {
   return (
@@ -308,7 +310,9 @@ const Home = () => {
           </Row>
         </Container>
       </section>
+      <OurTeam />
       <Testimonials />
+      <Consultation />
     </div>
   );
 };

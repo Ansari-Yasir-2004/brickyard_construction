@@ -21,10 +21,10 @@ const Service = () => {
           <div className="row">
             {ourService.map((service) => (
               <div key={service.id} className="col-md-4 col-sm-6 mb-4">
-                <div className="service-section ">
-                  <div className="service-image mb-3">
+                <div className="service-section cursor-pointer">
+                  <div className="overflow-hidden mb-3">
                     <img
-                      className="service-img w-100"
+                      className="service-img img-fluid"
                       src={service.image}
                       alt="service"
                     />

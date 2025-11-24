@@ -20,10 +20,10 @@ const Blog = () => {
           <div className="row">
             {ourBlog.map((blog) => (
               <div key={blog.id} className="col-md-6 col-sm-6 mb-4">
-                <div className="blog-section ">
-                  <div className="blog-image">
+                <div className="cursor-pointer">
+                  <div className="blog-section overflow-hidden">
                     <img
-                      className="blog-img w-100"
+                      className="blog-img img-fluid"
                       src={blog.image}
                       alt="blog"
                     />

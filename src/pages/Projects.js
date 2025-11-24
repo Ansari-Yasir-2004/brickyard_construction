@@ -20,24 +20,24 @@ const Projects = () => {
           <div className="row">
             {ourProject.map((project) => (
               <div key={project.id} className="col-md-6 col-sm-6 mb-4">
-                <div className="project-section ">
-                  <div className="project-image">
+                <div className="cursor-pointer">
+                  <div className="project-section overflow-hidden">
                     <img
-                      className="project-img w-100"
+                      className="project-img img-fluid"
                       src={project.image}
                       alt="project"
                     />
                   </div>
-                  <div>
-                    <a
-                      href="/"
-                      className="bg-cultured text-deep-moss-green fw-500 fs-14 rounded-1 p-2 mt-4 d-inline-block"
-                    >
-                      {project.linktext}
-                    </a>
-                  </div>
+                  <a
+                    href="/"
+                    className="bg-cultured text-deep-moss-green fw-500 fs-14 rounded-1 p-2 mt-4 d-inline-block"
+                  >
+                    {project.linktext}
+                  </a>
                   <div className="d-flex justify-content-between align-items-center mt-2 mb-4">
-                    <h5 className="h4 m-0 text-phthalo-green fw-600">{project.title}</h5>
+                    <h5 className="h4 m-0 text-phthalo-green fw-600">
+                      {project.title}
+                    </h5>
                     <img src={icon} alt="icon" width="24px" />
                   </div>
                   <div className="border-silver-chalice border-top-0"></div>
@@ -46,10 +46,10 @@ const Projects = () => {
             ))}
           </div>
         </Container>
-        <OurTeam />
-        <Testimonials />
-        <Consultation />
       </section>
+      <OurTeam />
+      <Testimonials />
+      <Consultation />
     </div>
   );
 };

@@ -11,7 +11,7 @@ function PauseOnHover({
   arrows,
   children,
 }) {
-  var settings = {
+  let settings = {
     dots: dots,
     infinite: infinite,
     slidesToShow: slidesToShow,
