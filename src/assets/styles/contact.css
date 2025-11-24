@@ -1,1 +1,14 @@
 /* CONTACT CSS */
+
+.contact-icon{
+    width: 52px;
+    height: 52px;
+}
+.from-btn{
+    outline: none;
+    border: none;
+    background: none;
+}
+.section-map{
+    height: 600px;
+}

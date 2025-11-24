@@ -194,6 +194,10 @@
   border: 1px solid var(--honeydew) !important;
 }
 
+.border-nickel {
+  border: 1px solid var(--nickel) !important;
+}
+
 .border-philippine-gray {
   border: 1px solid var(--philippine-gray) !important;
 }
