@@ -1,4 +1,5 @@
 import React from "react";
+import "../assets/styles/about.css"
 import OurTeam from "../components/OurTeam";
 import HowWeWork from "../components/HowWeWork";
 import Consultation from "../components/Consultation";
@@ -29,7 +30,7 @@ const About = () => {
           <Row className="gap-5">
             <Col sm={12}>
               <Row>
-                <Col md={6}>
+                <Col md={12} xl={6}>
                   <Row>
                     <Col md={5}>
                       <img
@@ -55,8 +56,8 @@ const About = () => {
                     </Col>
                   </Row>
                 </Col>
-                <Col md={6} className="d-flex">
-                  <div className="my-auto">
+                <Col md={12}xl={6} className="d-flex">
+                  <div className="my-auto mt-5">
                     <ContentTitle>
                       Our <span className="text-deep-moss-green">Vision</span>
                     </ContentTitle>
@@ -76,7 +77,7 @@ const About = () => {
                             alt="check circle broken"
                           />
                         </div>
-                        <span className="text-dark-charcoal ms-3 fs-5">
+                        <span className="text-dark-charcoal ms-3 fs-sm-14 our-text">
                           Promoting eco-friendly development and expansion
                         </span>
                       </li>
@@ -89,7 +90,7 @@ const About = () => {
                             alt="check circle broken"
                           />
                         </div>
-                        <span className="text-dark-charcoal ms-3 fs-5">
+                        <span className="text-dark-charcoal ms-3 fs-sm-14 our-text">
                           Promoting eco-friendly development and expansion
                         </span>
                       </li>
@@ -102,7 +103,7 @@ const About = () => {
                             alt="check circle broken"
                           />
                         </div>
-                        <span className="text-dark-charcoal ms-3 fs-5">
+                        <span className="text-dark-charcoal ms-3 fs-sm-14 our-text">
                           Promoting eco-friendly development and expansion
                         </span>
                       </li>
@@ -115,7 +116,7 @@ const About = () => {
                             alt="check circle broken"
                           />
                         </div>
-                        <span className="text-dark-charcoal ms-3 fs-5">
+                        <span className="text-dark-charcoal ms-3 fs-sm-14 our-text">
                           Promoting eco-friendly development and expansion
                         </span>
                       </li>
@@ -126,8 +127,8 @@ const About = () => {
             </Col>
             <Col sm={12}>
               <Row>
-                <Col md={6} className="d-flex">
-                  <div className="my-auto">
+                <Col md={12} xl={6} className="d-flex">
+                  <div className="my-auto mb-4">
                     <ContentTitle>
                       Our <span className="text-deep-moss-green">Mission</span>
                     </ContentTitle>
@@ -147,7 +148,7 @@ const About = () => {
                             alt="check circle broken"
                           />
                         </div>
-                        <span className="text-dark-charcoal ms-3 fs-5">
+                        <span className="text-dark-charcoal ms-3  fs-sm-14 our-text">
                           Promoting eco-friendly development and expansion
                         </span>
                       </li>
@@ -160,7 +161,7 @@ const About = () => {
                             alt="check circle broken"
                           />
                         </div>
-                        <span className="text-dark-charcoal ms-3 fs-5">
+                        <span className="text-dark-charcoal ms-3 fs-sm-14 our-text">
                           Promoting eco-friendly development and expansion
                         </span>
                       </li>
@@ -173,7 +174,7 @@ const About = () => {
                             alt="check circle broken"
                           />
                         </div>
-                        <span className="text-dark-charcoal ms-3 fs-5">
+                        <span className="text-dark-charcoal ms-3 fs-sm-14 our-text">
                           Promoting eco-friendly development and expansion
                         </span>
                       </li>
@@ -186,14 +187,14 @@ const About = () => {
                             alt="check circle broken"
                           />
                         </div>
-                        <span className="text-dark-charcoal ms-3 fs-5">
+                        <span className="text-dark-charcoal ms-3 fs-sm-14 our-text">
                           Promoting eco-friendly development and expansion
                         </span>
                       </li>
                     </ul>
                   </div>
                 </Col>
-                <Col md={6}>
+                <Col md={12} xl={6}>
                   <Row>
                     <Col md={5}>
                       <img

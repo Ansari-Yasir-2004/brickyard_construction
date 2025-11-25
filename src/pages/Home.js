@@ -27,9 +27,9 @@ const Home = () => {
     <div>
       <section className="bg-cal-poly-pomona-green">
         <Container fluid>
-          <Row className="px-3 py-5">
-            <Col sm={12} lg={8} className="d-flex p-0 mb-4 mb-lg-0">
-              <div className="my-auto max-w-md-500">
+          <Row className="px-3 py-5 px-md-4 p-lg-0">
+            <Col sm={12} xl={8} lg={7} className="d-flex p-0 mb-4 mb-lg-0">
+              <div className="my-auto max-w-md-550 mx-lg-auto">
                 <h1 className="display-4 fw-600 text-white mb-3">
                   <span className="text-tea-green">Strong Foundations</span> for
                   Tomorrow's Landmarks
@@ -39,8 +39,11 @@ const Home = () => {
                   construction and consultancy services are tailored to meet
                   your needs and exceed expectations.
                 </p>
-                <div className="d-flex flex-wrap justify-content-center gap-3">
+                <div className="d-flex flex-wrap justify-content-center gap-3 justify-content-md-start">
+                  <div className="d-flex">
+
                   <PrimaryBtn label={"Learn More"} />
+                  </div>
                   <SecondaryBtn
                     label={"Explore Projects"}
                     color={"text-white"}
@@ -48,7 +51,7 @@ const Home = () => {
                 </div>
               </div>
             </Col>
-            <Col sm={12} lg={4} className="p-0 ms-auto">
+            <Col sm={12} xl={4} lg={5} className="p-0 ms-auto">
               <img src={HeroHomeImg} className="img-fluid" alt="Hero Home" />
             </Col>
           </Row>
@@ -56,11 +59,11 @@ const Home = () => {
       </section>
       <section className="section">
         <Container>
-          <Row className="justify-content-between">
+          <Row className="justify-content-between flex-column-reverse flex-lg-row-reverse  flex-xl-row">
             <Col lg={5}>
               <img src={AboutUsImg} className="img-fluid" alt="About Us" />
             </Col>
-            <Col lg={6} className="my-auto">
+            <Col lg={6} className="my-lg-auto mb-4 ">
               <div className="">
                 <ContentHeadCapsul>About Us</ContentHeadCapsul>
                 <ContentTitle>
@@ -127,8 +130,8 @@ const Home = () => {
       </section>
       <section className="bg-cultured section">
         <Container>
-          <Row className="justify-content-between">
-            <Col lg={4}>
+          <Row className="justify-content-between flex-lg-column flex-xl-row">
+            <Col xl={4} lg={8} md={7}>
               <div className="">
                 <ContentHeadCapsul>Our Services</ContentHeadCapsul>
                 <ContentTitle>
@@ -136,16 +139,16 @@ const Home = () => {
                   with Expertise, Innovation, and Care
                 </ContentTitle>
                 <SecondaryBtn
-                  label={"Explore Our Service"}
+                  label={"Explore Our Service "}
                   color={"text-eerie-black"}
                 />
               </div>
             </Col>
-            <Col lg={7}>
+            <Col xl={7} lg={12}>
               <Row>
                 {ourServices &&
                   ourServices.map((service) => (
-                    <Col key={service.id} lg={6}>
+                    <Col key={service.id} md={6}>
                       <div className="bg-white p-4 rounded-4 border-light-silver mb-4">
                         <img
                           src={service.image}
@@ -179,10 +182,10 @@ const Home = () => {
             </ContentTitle>
           </div>
           <Row className="justify-content-between">
-            <Col lg={6} className="my-auto">
-              <ul className="p-0">
+            <Col lg={7} className="my-auto">
+              <ul className="p-0 mx-4">
                 <li className="mb-4">
-                  <Row>
+                  <Row className="flex-column gap-4 flex-md-row gap-md-0">
                     <div className="why-choose-us-icon">
                       <img
                         src={WhyChooseUsIcon1}
@@ -190,7 +193,7 @@ const Home = () => {
                         className="img-fluid"
                       />
                     </div>
-                    <Col xs={6}>
+                    <Col sm={6} lg={10} xl={6}>
                       <h5 className="h4 fw-600 text-eerie-black">
                         Accurate Measurements
                       </h5>
@@ -200,8 +203,8 @@ const Home = () => {
                     </Col>
                   </Row>
                 </li>
-                <li className="mb-4">
-                  <Row className="justify-content-center">
+                <li className="mb-0 mb-md-4 ">
+                  <Row className="justify-content-start justify-content-md-center gap-4 gap-md-0">
                     <div className="why-choose-us-icon">
                       <img
                         src={WhyChooseUsIcon2}
@@ -209,7 +212,7 @@ const Home = () => {
                         className="img-fluid"
                       />
                     </div>
-                    <Col xs={6} className="me-5">
+                    <Col sm={6} lg={10} xl={6} className="me-5 me-lg-0">
                       <h5 className="h4 fw-600 text-eerie-black">
                         Beat Sustainability
                       </h5>
@@ -217,20 +220,20 @@ const Home = () => {
                         Lorem ipsum dolor sit amet consectetur. Dictum rhoncus
                       </p>
                     </Col>
-                    <Col xs={1}></Col>
+                    <Col sm={1}></Col>
                   </Row>
                 </li>
                 <li className="mb-4">
-                  <Row className="justify-content-center">
-                    <Col xs={1}></Col>
-                    <div className="why-choose-us-icon ms-4">
+                  <Row className="justify-content-start justify-content-md-center gap-4 gap-md-0">
+                    <Col xs={1} className="d-lg-none d-none"></Col>
+                    <div className="why-choose-us-icon ms-md-4 ms-lg-0">
                       <img
                         src={WhyChooseUsIcon3}
                         alt="Residential Structures"
                         className="img-fluid"
                       />
                     </div>
-                    <Col xs={6}>
+                    <Col sm={6} lg={10} xl={6}>
                       <h5 className="h4 fw-600 text-eerie-black">
                         Residential Structures
                       </h5>
@@ -240,8 +243,8 @@ const Home = () => {
                     </Col>
                   </Row>
                 </li>
-                <li className="mb-4">
-                  <Row className="justify-content-end">
+                <li className="mb-4 ">
+                  <Row className="flex-column justify-content-start justify-content-md-end gap-4 flex-md-row gap-md-0">
                     <div className="why-choose-us-icon">
                       <img
                         src={WhyChooseUsIcon4}
@@ -249,7 +252,7 @@ const Home = () => {
                         className="img-fluid"
                       />
                     </div>
-                    <Col xs={6}>
+                    <Col sm={6} lg={10} xl={6}>
                       <h5 className="h4 fw-600 text-eerie-black">
                         Tackle Environment
                       </h5>
@@ -273,8 +276,8 @@ const Home = () => {
       </section>
       <section className="bg-cal-poly-pomona-green section">
         <Container>
-          <Row>
-            <Col lg={4}>
+          <Row className="px-3">
+            <Col md={4} className="mb-5">
               <div className="border-honeydew border-start-0 border-top-0 border-end-0 mb-4">
                 <h3 className="display-4 text-menthol fw-600">120+</h3>
                 <h6 className="h5 text-honeydew fw-600 mb-4">
@@ -286,7 +289,7 @@ const Home = () => {
                 egestas dis enim non feugiat bibendum tristique.
               </p>
             </Col>
-            <Col lg={4}>
+            <Col md={4} className="mb-5">
               <div className="border-honeydew border-start-0 border-top-0 border-end-0 mb-4">
                 <h3 className="display-4 text-menthol fw-600">10k+</h3>
                 <h6 className="h5 text-honeydew fw-600 mb-4">CHappy Clients</h6>
@@ -296,7 +299,7 @@ const Home = () => {
                 egestas dis enim non feugiat bibendum tristique.
               </p>
             </Col>
-            <Col lg={4}>
+            <Col md={4}>
               <div className="border-honeydew border-start-0 border-top-0 border-end-0 mb-4">
                 <h3 className="display-4 text-menthol fw-600">24+</h3>
                 <h6 className="h5 text-honeydew fw-600 mb-4">
@@ -317,8 +320,8 @@ const Home = () => {
         <Container>
           <div className="mb-4">
             <ContentHeadCapsul>Featured Projects</ContentHeadCapsul>
-            <div className="d-flex justify-content-between align-items-center">
-              <ContentTitle>
+            <div className="d-flex justify-content-between  flex-column flex-lg-row">
+              <ContentTitle >
                 Proudly Presenting Our{" "}
                 <span className="text-deep-moss-green">Finest Projects</span>
               </ContentTitle>
@@ -328,10 +331,10 @@ const Home = () => {
               />
             </div>
           </div>
-          <Row>
+          <Row className="mt-5 align-items-md-center justify-content-md-center">
             {featuredProjects &&
               featuredProjects.map((project) => (
-                <Col key={project.id} md={4}>
+                <Col className="mb-4" key={project.id} md={6} lg={4}>
                   <div className="project-section cursor-pointer">
                     <div className="overflow-hidden">
                       <img
@@ -346,8 +349,8 @@ const Home = () => {
                     >
                       {project.linktext}
                     </a>
-                    <div className="d-flex justify-content-between align-items-center mt-2 mb-3">
-                      <h5 className="h4 m-0 text-phthalo-green fw-600">
+                    <div className="d-flex justify-content-between align-items-center align-items-lg-end mt-2 mb-3">
+                      <h5 className="h4  m-0 text-phthalo-green fw-600">
                         {project.title}
                       </h5>
                       <img src={icon} alt="icon" width="24px" />
@@ -369,10 +372,10 @@ const Home = () => {
               Our Latest Blog.
             </ContentPara>
           </div>
-          <Row>
+          <Row className="justify-content-md-center">
             {latestNews &&
               latestNews.map((blog) => (
-                <Col key={blog.id} md={4}>
+                <Col className="mb-4" key={blog.id} md={6} lg={4}>
                   <div className="cursor-pointer">
                     <div className="blog-section overflow-hidden">
                       <img

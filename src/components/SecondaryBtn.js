@@ -4,7 +4,7 @@ const SecondaryBtn = ({ label, color }) => {
   return (
     <a
       href="/contact"
-      className={`${color} fw-500 py-2 nav-btn-2 d-inline-block`}
+      className={`${color} fs-sm-14 fw-500 py-2 nav-btn-2 d-inline-block`}
     >
       {label}{" "}
       <span className="d-inline-block nav-btn-2-arrow">
