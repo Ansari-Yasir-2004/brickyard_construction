@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/styles/contact.css";
-import { Button, Col, Container, Form, Row } from "react-bootstrap";
+import { Col, Container, Form, Row } from "react-bootstrap";
 import ContentHeading from "../components/ContentHeading";
 import ContentTitle from "../components/ContentTitle";
 import contactimage from "../assets/images/webp/contact-image.webp";
@@ -20,45 +20,33 @@ const Contact = () => {
             <ContentHeading heading={"Contact Us"} />
             <ContentTitle>Have questions or need assistance?</ContentTitle>
           </div>
-          <Row>
-            <Col md={6}>
-              <div className="position-relative">
+          <Row className="align-items-center">
+            <Col md={6} className="mb-5 mb-md-0">
+              <div className="position-relative ">
                 <img className="img-fluid" src={contactimage} alt="contact" />
                 <div className="position-absolute w-100 px-3 start-0 end-0 bottom-0">
-                  <ul className="bg-white p-4 d-flex flex-column gap-4 rounded-3 ">
+                  <ul className="bg-white p-3 p-md-4 d-flex flex-column gap-4 rounded-3 ">
                     <li className="d-flex align-items-center gap-2">
-                      <span className="contact-icon bg-cultured  rounded-3 d-flex p-2 ">
-                        <img
-                          className="img-fluid"
-                          src={loaction1}
-                          alt="location icon"
-                        />
+                      <span className="contact-icon-wrapper bg-cultured  rounded-3 d-flex p-2 ">
+                        <img src={loaction1} alt="location icon" />
                       </span>
-                      <p className="m-0 text-eerie-black fw-500 ">
+                      <p className="m-0 text-eerie-black fw-500 fs-sm-14">
                         123 Peachtree Street NE, Atlanta, GA 30309
                       </p>
                     </li>
                     <li className="d-flex align-items-center gap-2">
-                      <span className="contact-icon bg-cultured  rounded-3 d-flex p-2 ">
-                        <img
-                          className="img-fluid"
-                          src={email1}
-                          alt="location icon"
-                        />
+                      <span className="contact-icon-wrapper bg-cultured  rounded-3 d-flex p-2 ">
+                        <img src={email1} alt="location icon" />
                       </span>
-                      <p className="m-0 text-eerie-black fw-500 ">
+                      <p className="m-0 text-eerie-black fw-500 fs-sm-14">
                         hello.brickyard@gmail.com
                       </p>
                     </li>
                     <li className="d-flex align-items-center gap-2">
-                      <span className="contact-icon bg-cultured  rounded-3 d-flex p-2 ">
-                        <img
-                          className="img-fluid"
-                          src={call1}
-                          alt="location icon"
-                        />
+                      <span className="contact-icon-wrapper bg-cultured  rounded-3 d-flex p-2 ">
+                        <img src={call1} alt="location icon" />
                       </span>
-                      <p className="m-0 text-eerie-black fw-500 ">
+                      <p className="m-0 text-eerie-black fw-500 fs-sm-14">
                         +(528) 456-7592
                       </p>
                     </li>
@@ -67,7 +55,7 @@ const Contact = () => {
               </div>
             </Col>
             <Col md={6}>
-              <div className=" border-nickel p-5 rounded-3 h-100">
+              <div className=" border-nickel p-3 p-lg-4 rounded-3 h-100">
                 <div className="text-center">
                   <h4>Get in touch</h4>
                   <p className="text-nickel">
@@ -75,7 +63,7 @@ const Contact = () => {
                     questions.
                   </p>
                 </div>
-                <Form>
+                <Form className="d-flex flex-column">
                   <Row className="gap-3">
                     <Col sm={12}>
                       <Form.Control
@@ -118,7 +106,7 @@ const Contact = () => {
                       />
                     </Col>
                   </Row>
-                  <button className="from-btn d-flex justify-content-end mt-4">
+                  <button className="from-btn mt-4 ms-auto">
                     <PrimaryBtn label={"send Message"} />
                   </button>
                 </Form>
@@ -130,16 +118,22 @@ const Contact = () => {
       <section className="section">
         <Container>
           <div className="">
-
-          <ContentHeadCapsul>Google Map</ContentHeadCapsul>
-          <ContentTitle>Find Us On Google Map</ContentTitle>
+            <ContentHeadCapsul>Google Map</ContentHeadCapsul>
+            <ContentTitle>Find Us On Google Map</ContentTitle>
           </div>
           <div className="border-nickel rounded-3">
-            <iframe className="section-map d-flex w-100  rounded-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.7305181841334!2d73.04802697503314!3d19.29408178195588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bd5deece825b%3A0xb42af685b6b578e7!2sCrisfood!5e0!3m2!1sen!2sin!4v1763983072952!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+            title="Map"
+              className="section-map d-flex w-100  rounded-3"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.7305181841334!2d73.04802697503314!3d19.29408178195588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bd5deece825b%3A0xb42af685b6b578e7!2sCrisfood!5e0!3m2!1sen!2sin!4v1763983072952!5m2!1sen!2sin"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </Container>
       </section>
-      <Testimonials/>
+      <Testimonials />
     </>
   );
 };
