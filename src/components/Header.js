@@ -28,7 +28,9 @@ const Header = () => {
                 {link.label}
               </Nav.Link>
             ))}
-            <PrimaryBtn label={"Let's Talk"} />
+            <div className="">
+              <PrimaryBtn label={"Let's Talk"} />
+            </div>
           </Nav>
         </Navbar.Collapse>
       </Container>

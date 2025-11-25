@@ -12,8 +12,8 @@ const HowWeWork = () => {
         <div className="text-center mb-5">
           <ContentHeadCapsul>How We Work?</ContentHeadCapsul>
           <ContentTitle>
-            Built on <span className="text-deep-moss-green">Precision</span>{" "}
-            ,Driven by <span className="text-deep-moss-green"> Excellence</span>
+            Built on <span className="text-deep-moss-green">Precision</span>,{" "}
+            Driven by <span className="text-deep-moss-green"> Excellence</span>
           </ContentTitle>
         </div>
         <PauseOnHover

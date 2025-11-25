@@ -27,19 +27,19 @@ const Home = () => {
     <div>
       <section className="bg-cal-poly-pomona-green">
         <Container fluid>
-          <Row>
-            <Col lg={8} className="d-flex">
-              <div className="w-75 mx-auto my-auto">
+          <Row className="px-3 py-5">
+            <Col sm={12} lg={8} className="d-flex p-0 mb-4 mb-md-0">
+              <div className="my-auto">
                 <h1 className="display-4 fw-600 text-white mb-3">
                   <span className="text-tea-green">Strong Foundations</span> for
                   Tomorrow's Landmarks
                 </h1>
-                <p className="text-transparent-white mb-4">
+                <p className="text-transparent-white fs-sm-14 mb-4">
                   With a commitment to delivering high-quality solutions, our
                   construction and consultancy services are tailored to meet
                   your needs and exceed expectations.
                 </p>
-                <div className="d-flex gap-3">
+                <div className="d-flex flex-wrap justify-content-center gap-3">
                   <PrimaryBtn label={"Learn More"} />
                   <SecondaryBtn
                     label={"Explore Projects"}
@@ -48,7 +48,7 @@ const Home = () => {
                 </div>
               </div>
             </Col>
-            <Col lg={4} className="p-0 ms-auto">
+            <Col sm={12} lg={4} className="p-0 ms-auto">
               <img src={HeroHomeImg} className="img-fluid" alt="Hero Home" />
             </Col>
           </Row>

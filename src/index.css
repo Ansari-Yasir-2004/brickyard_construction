@@ -260,6 +260,11 @@ ul > li {
   transition: all 0.2s ease !important;
 }
 
+.nav-btn {
+  text-align: center;
+  flex-grow: 1;
+}
+
 .nav-btn-2:hover {
   transform: translateX(5px);
 }

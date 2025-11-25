@@ -10,10 +10,10 @@ import CallIcon from "../assets/images/webp/call-icon.webp";
 const Footer = () => {
   return (
     <footer className="my-3">
-      <Container className="p-0">
-        <div className="bg-phthalo-green p-5 rounded-4">
-          <Row className="border-honeydew pb-5 border-start-0 border-top-0 border-end-0 mb-3">
-            <Col lg={3}>
+      <Container className="p-md-0">
+        <div className="bg-phthalo-green p-4 p-md-5 rounded-4">
+          <Row className="border-honeydew pb-4 pb-lg-5 border-start-0 border-top-0 border-end-0 mb-3 justify-content-start justify-content-md-around">
+            <Col sm={12} md={5} lg={3} className="mb-3 mb-lg-0">
               <a href="/" className="mb-3 d-inline-block">
                 <img
                   src={CompanyLogo}
@@ -27,18 +27,21 @@ const Footer = () => {
               </p>
               <Form>
                 <Row className="mb-3">
-                  <Col xs={7} className="px-1">
-                    <Form.Group controlId="formGridEmail">
+                  <Col sm={7} className="px-1">
+                    <Form.Group
+                      controlId="formGridEmail"
+                      className="mb-2 mb-md-0"
+                    >
                       <Form.Control type="email" placeholder="Your Email" />
                     </Form.Group>
                   </Col>
-                  <Col xs={5} className="d-flex px-1">
+                  <Col sm={5} className="d-flex px-1">
                     <PrimaryBtn label={"Submit"} />
                   </Col>
                 </Row>
               </Form>
             </Col>
-            <Col lg={2}>
+            <Col sm={12} md={3} lg={2} className="mb-3 mb-lg-0 ps-lg-4">
               <p className="text-menthol fw-600 mb-3 text-uppercase">
                 QUICK LINKS
               </p>
@@ -65,7 +68,7 @@ const Footer = () => {
                 </li>
               </ul>
             </Col>
-            <Col lg={2}>
+            <Col sm={12} md={3} lg={2} className="mb-3 mb-lg  -0">
               <p className="text-menthol fw-600 mb-3 text-uppercase">
                 Utility Pages
               </p>
@@ -92,7 +95,7 @@ const Footer = () => {
                 </li>
               </ul>
             </Col>
-            <Col lg={2}>
+            <Col sm={12} md={3} lg={2} className="mb-3 mb-md-0">
               <p className="text-menthol fw-600 mb-3 text-uppercase">
                 FOLLOW US
               </p>
@@ -119,7 +122,7 @@ const Footer = () => {
                 </li>
               </ul>
             </Col>
-            <Col lg={3}>
+            <Col sm={12} md={5} lg={3}>
               <p className="text-menthol fw-600 mb-3 text-uppercase">
                 CONTACT US
               </p>
