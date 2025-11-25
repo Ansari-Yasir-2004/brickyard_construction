@@ -28,8 +28,8 @@ const Home = () => {
       <section className="bg-cal-poly-pomona-green">
         <Container fluid>
           <Row className="px-3 py-5">
-            <Col sm={12} lg={8} className="d-flex p-0 mb-4 mb-md-0">
-              <div className="my-auto">
+            <Col sm={12} lg={8} className="d-flex p-0 mb-4 mb-lg-0">
+              <div className="my-auto max-w-md-500">
                 <h1 className="display-4 fw-600 text-white mb-3">
                   <span className="text-tea-green">Strong Foundations</span> for
                   Tomorrow's Landmarks

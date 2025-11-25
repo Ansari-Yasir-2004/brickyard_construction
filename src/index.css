@@ -218,6 +218,12 @@
   max-width: 500px !important;
 }
 
+@media screen and (min-width: 768px) {
+  .max-w-md-500 {
+  max-width: 500px !important;
+}
+}
+
 @media screen and (min-width: 992px) {
   .rounded-lg-pill {
     border-radius: var(--bs-border-radius-pill) !important;
