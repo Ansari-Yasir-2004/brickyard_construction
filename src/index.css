@@ -23,7 +23,6 @@
   --silver-chalice: #adadad;
   --eucalyptus: #2cee91;
   --vampire-black: #0b0b0b;
-  --silver-chalice: #adadad;
   --philippine-gray: #8a8a8a;
   --lotion: #fbfcfb;
   --font-inter-local: "Inter", sans-serif;
@@ -60,6 +59,10 @@
 
 .bg-light-silver {
   background-color: var(--light-silver) !important;
+}
+
+.bg-lotion {
+  background-color: var(--lotion) !important;
 }
 
 .bg-menthol {
@@ -143,7 +146,7 @@
 }
 
 .text-philippine-gray {
-  background-color: var(--philippine-gray) !important;
+  color: var(--philippine-gray) !important;
 }
 
 .text-phthalo-green {
@@ -220,8 +223,8 @@
 
 @media screen and (min-width: 768px) {
   .max-w-md-550 {
-  max-width: 550px !important;
-}
+    max-width: 550px !important;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -241,12 +244,24 @@ a {
   text-decoration: none !important;
 }
 
-ul>li {
+ul > li {
   list-style: none;
 }
 
 .section {
-  padding: 64px 0px;
+  padding: 32px 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 56px 0px;
+  }
+}
+
+@media screen and (min-width: 992) {
+  .section {
+    padding: 64px 0px;
+  }
 }
 
 .cursor-pointer {
@@ -329,15 +344,21 @@ ul>li {
 
 /*************************************Consulation *****************************/
 
-.main-container {
-  height: 580px;
-  width: 100%;
+@media screen and (min-width: 1200px) {
+  .main-container {
+    height: 580px;
+    width: 100%;
+  }
 }
 
 .man-image {
-  right: 0;
-  top: -7%;
-  width: 50%;
+  width: 60%;
+}
+
+@media screen and (min-width: 992px) {
+  .man-image {
+    width: 50%;
+  }
 }
 
 .sub-title-line {

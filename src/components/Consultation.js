@@ -8,29 +8,37 @@ import PrimaryBtn from "./PrimaryBtn";
 const Consultation = () => {
   return (
     <section className="section">
-      <Container className="bg-cultured rounded-4">
-        <Row className="main-container align-items-center ps-4 pe-1 position-relative">
-          <Col className="main-col d-flex flex-column justify-content-center">
-            <ContentTitle>
-              Contact Us Today for a{" "}
-              <span className="text-deep-moss-green">Free Consultation</span>{" "}
-            </ContentTitle>
-            <ContentPara textColor={"text-eerie-black"}>
-              At Brickyard, we believe that every construction project is an
-              opportunity to create something exceptional.
-            </ContentPara>
-            <div className="d-inline-block">
-              <PrimaryBtn label={"Get Free Quote"} />
+      <Container className="">
+        <div className="bg-cultured rounded-4 main-container position-relative px-md-3 py-md-5">
+          <Row className="align-items-center px-4 py-5 h-100">
+            <Col
+              sm={12}
+              md={8}
+              lg={6}
+              xl={5}
+              className="main-col d-flex position-relative"
+            >
+              <div className="my-auto">
+                <ContentTitle>
+                  Contact Us Today for a{" "}
+                  <span className="text-deep-moss-green">
+                    Free Consultation
+                  </span>{" "}
+                </ContentTitle>
+                <ContentPara textColor={"text-eerie-black"}>
+                  At Brickyard, we believe that every construction project is an
+                  opportunity to create something exceptional.
+                </ContentPara>
+                <div className="d-inline-block">
+                  <PrimaryBtn label={"Get Free Quote"} />
+                </div>
+              </div>
+            </Col>
+            <div className="position-absolute bottom-0 end-0 d-none d-md-flex justify-content-end p-0">
+              <img className="man-image" src={Manimage} alt="" />
             </div>
-          </Col>
-          <Col className="">
-            <img
-              className="man-image position-absolute "
-              src={Manimage}
-              alt=""
-            />
-          </Col>
-        </Row>
+          </Row>
+        </div>
       </Container>
     </section>
   );

@@ -14,13 +14,13 @@ const Service = () => {
     <div className="">
       <section className="bg-cultured section">
         <Container>
-          <div className="mb-5">
+          <div className="mb-4 mb-md-5">
             <ContentHeading heading={"What We Offer"} />
             <ContentTitle>Our Services</ContentTitle>
           </div>
           <div className="row">
             {ourService.map((service) => (
-              <div key={service.id} className="col-md-4 col-sm-6 mb-4">
+              <div key={service.id} className="col-sm-6 col-md-6 col-lg-4 mb-4">
                 <div className="service-section cursor-pointer">
                   <div className="overflow-hidden mb-3">
                     <img

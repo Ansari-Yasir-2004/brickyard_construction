@@ -16,16 +16,16 @@ const Contact = () => {
     <>
       <section className="section">
         <Container>
-          <div className="">
+          <div className="mb-4 mb-md-5">
             <ContentHeading heading={"Contact Us"} />
             <ContentTitle>Have questions or need assistance?</ContentTitle>
           </div>
-          <Row className="align-items-center">
-            <Col md={6} className="mb-5 mb-md-0">
-              <div className="position-relative ">
+          <Row >
+            <Col md={6} className="mb-4 mb-md-0 d-flex">
+              <div className="position-relative my-auto">
                 <img className="img-fluid" src={contactimage} alt="contact" />
                 <div className="position-absolute w-100 px-3 start-0 end-0 bottom-0">
-                  <ul className="bg-white p-3 p-md-4 d-flex flex-column gap-4 rounded-3 ">
+                  <ul className="bg-white p-3 p-md-4 d-flex flex-column gap-3 gap-md-4 rounded-3 ">
                     <li className="d-flex align-items-center gap-2">
                       <span className="contact-icon-wrapper bg-cultured  rounded-3 d-flex p-2 ">
                         <img src={loaction1} alt="location icon" />

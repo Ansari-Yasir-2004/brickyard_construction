@@ -41,8 +41,7 @@ const Home = () => {
                 </p>
                 <div className="d-flex flex-wrap justify-content-center gap-3 justify-content-md-start">
                   <div className="d-flex">
-
-                  <PrimaryBtn label={"Learn More"} />
+                    <PrimaryBtn label={"Learn More"} />
                   </div>
                   <SecondaryBtn
                     label={"Explore Projects"}
@@ -182,18 +181,18 @@ const Home = () => {
             </ContentTitle>
           </div>
           <Row className="justify-content-between">
-            <Col lg={7} className="my-auto">
-              <ul className="p-0 mx-4">
+            <Col lg={7} className="mb-md-4 my-lg-auto">
+              <ul className="p-0 mx-4 mx-lg-0">
                 <li className="mb-4">
-                  <Row className="flex-column gap-4 flex-md-row gap-md-0">
-                    <div className="why-choose-us-icon">
+                  <Row className="">
+                    <div className="why-choose-us-icon mb-4 mb-md-0">
                       <img
                         src={WhyChooseUsIcon1}
                         alt="Accurate Measurements"
                         className="img-fluid"
                       />
                     </div>
-                    <Col sm={6} lg={10} xl={6}>
+                    <Col sm={12} md={6} lg={8} xl={6}>
                       <h5 className="h4 fw-600 text-eerie-black">
                         Accurate Measurements
                       </h5>
@@ -203,16 +202,16 @@ const Home = () => {
                     </Col>
                   </Row>
                 </li>
-                <li className="mb-0 mb-md-4 ">
-                  <Row className="justify-content-start justify-content-md-center gap-4 gap-md-0">
-                    <div className="why-choose-us-icon">
+                <li className="mb-4">
+                  <Row className="justify-content-start justify-content-md-center">
+                    <div className="why-choose-us-icon mb-4 mb-md-0">
                       <img
                         src={WhyChooseUsIcon2}
                         alt="Beat Sustainability"
                         className="img-fluid"
                       />
                     </div>
-                    <Col sm={6} lg={10} xl={6} className="me-5 me-lg-0">
+                    <Col sm={12} md={6} lg={8} xl={6} className="me-md-5">
                       <h5 className="h4 fw-600 text-eerie-black">
                         Beat Sustainability
                       </h5>
@@ -220,20 +219,20 @@ const Home = () => {
                         Lorem ipsum dolor sit amet consectetur. Dictum rhoncus
                       </p>
                     </Col>
-                    <Col sm={1}></Col>
+                    <Col sm={1} className="d-none d-md-block d-lg-none d-xl-block"></Col>
                   </Row>
                 </li>
                 <li className="mb-4">
-                  <Row className="justify-content-start justify-content-md-center gap-4 gap-md-0">
-                    <Col xs={1} className="d-lg-none d-none"></Col>
-                    <div className="why-choose-us-icon ms-md-4 ms-lg-0">
+                  <Row className="justify-content-start justify-content-md-center">
+                    <Col sm={1} className="d-none d-md-block d-lg-none d-xl-block"></Col>
+                    <div className="why-choose-us-icon ms-md-4 mb-4 mb-md-0">
                       <img
                         src={WhyChooseUsIcon3}
                         alt="Residential Structures"
                         className="img-fluid"
                       />
                     </div>
-                    <Col sm={6} lg={10} xl={6}>
+                    <Col sm={12} md={6} lg={8} xl={6}>
                       <h5 className="h4 fw-600 text-eerie-black">
                         Residential Structures
                       </h5>
@@ -243,16 +242,16 @@ const Home = () => {
                     </Col>
                   </Row>
                 </li>
-                <li className="mb-4 ">
-                  <Row className="flex-column justify-content-start justify-content-md-end gap-4 flex-md-row gap-md-0">
-                    <div className="why-choose-us-icon">
+                <li className="mb-4">
+                  <Row className="justify-content-start justify-content-md-end">
+                    <div className="why-choose-us-icon mb-4 mb-md-0">
                       <img
                         src={WhyChooseUsIcon4}
                         alt="Tackle Environment"
                         className="img-fluid"
                       />
                     </div>
-                    <Col sm={6} lg={10} xl={6}>
+                    <Col sm={12} md={6} lg={8} xl={6}>
                       <h5 className="h4 fw-600 text-eerie-black">
                         Tackle Environment
                       </h5>
@@ -321,7 +320,7 @@ const Home = () => {
           <div className="mb-4">
             <ContentHeadCapsul>Featured Projects</ContentHeadCapsul>
             <div className="d-flex justify-content-between  flex-column flex-lg-row">
-              <ContentTitle >
+              <ContentTitle>
                 Proudly Presenting Our{" "}
                 <span className="text-deep-moss-green">Finest Projects</span>
               </ContentTitle>
@@ -362,7 +361,7 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-      <section className="section">
+      <section className="bg-lotion section">
         <Container>
           <div className="max-w-500 mx-auto text-center mb-5">
             <ContentHeadCapsul>Latest News</ContentHeadCapsul>
