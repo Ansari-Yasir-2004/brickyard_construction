@@ -2,10 +2,10 @@ import React from "react";
 import "../assets/styles/home.css";
 import Testimonials from "../components/Testimonials";
 import { Col, Container, Row } from "react-bootstrap";
-import HeroHomeImg from "../assets/images/webp/hero-home-img.webp";
+import HeroHomeImg from "../assets/images/jpg/ask-and-associates-home-hero.jpg";
 import PrimaryBtn from "../components/PrimaryBtn";
 import SecondaryBtn from "../components/SecondaryBtn";
-import AboutUsImg from "../assets/images/webp/about-us-img.webp";
+import AboutUsImg from "../assets/images/jpg/ask-and-associates-home-about.jpg";
 import ContentHeadCapsul from "../components/ContentHeadCapsul";
 import ContentTitle from "../components/ContentTitle";
 import ContentPara from "../components/ContentPara";
@@ -13,7 +13,7 @@ import HomeIcon from "../assets/images/webp/home-icon.webp";
 import BuildingIcon from "../assets/images/webp/building-icon.webp";
 import HomeInteriorIcon from "../assets/images/webp/home-interior-icon.webp";
 import { featuredProjects, latestNews, ourServices } from "../data";
-import WhyChooseUsImg from "../assets/images/webp/why-choose-us-img.webp";
+import WhyChooseUsImg from "../assets/images/jpg/ask-and-associates-home-why-choose-us.png";
 import WhyChooseUsIcon1 from "../assets/images/webp/why-choose-us-icon-1.webp";
 import WhyChooseUsIcon2 from "../assets/images/webp/why-choose-us-icon-2.webp";
 import WhyChooseUsIcon3 from "../assets/images/webp/why-choose-us-icon-3.webp";
@@ -28,29 +28,29 @@ const Home = () => {
       <section className="bg-cal-poly-pomona-green">
         <Container fluid>
           <Row className="px-3 py-5 px-md-4 p-lg-0">
-            <Col sm={12} xl={8} lg={7} className="d-flex p-0 mb-4 mb-lg-0">
+            <Col sm={12} lg={7} className="d-flex p-0 mb-4 mb-lg-0">
               <div className="my-auto max-w-md-550 mx-lg-auto">
                 <h1 className="display-4 fw-600 text-white mb-3">
-                  <span className="text-tea-green">Strong Foundations</span> for
-                  Tomorrow's Landmarks
+                  <span className="text-tea-green">Designing Spaces</span> that
+                  Define the Future
                 </h1>
                 <p className="text-transparent-white fs-sm-14 mb-4">
-                  With a commitment to delivering high-quality solutions, our
-                  construction and consultancy services are tailored to meet
-                  your needs and exceed expectations.
+                  We blend innovation and expertise to build spaces that
+                  inspire, endure, and elevate every experience.
                 </p>
                 <div className="d-flex flex-wrap justify-content-center gap-3 justify-content-md-start">
                   <div className="d-flex">
-                    <PrimaryBtn label={"Learn More"} />
+                    <PrimaryBtn label={"Discover More"} path={"/service"} />
                   </div>
                   <SecondaryBtn
-                    label={"Explore Projects"}
+                    label={"View Projects"}
                     color={"text-white"}
+                    path={"/projects"}
                   />
                 </div>
               </div>
             </Col>
-            <Col sm={12} xl={4} lg={5} className="p-0 ms-auto">
+            <Col sm={12} lg={5} className="p-0 ms-auto">
               <img src={HeroHomeImg} className="img-fluid" alt="Hero Home" />
             </Col>
           </Row>
@@ -59,69 +59,71 @@ const Home = () => {
       <section className="section">
         <Container>
           <Row className="justify-content-between flex-column-reverse flex-lg-row-reverse  flex-xl-row">
-            <Col lg={5}>
-              <img src={AboutUsImg} className="img-fluid" alt="About Us" />
+            <Col lg={5} className="d-flex">
+              <img
+                src={AboutUsImg}
+                className="img-fluid my-auto"
+                alt="About Us"
+              />
             </Col>
             <Col lg={6} className="my-lg-auto mb-4 ">
               <div className="">
                 <ContentHeadCapsul>About Us</ContentHeadCapsul>
                 <ContentTitle>
-                  Shaping the{" "}
-                  <span className="text-deep-moss-green">Future</span> with
-                  Expertise and Integrity
+                  Transforming{" "}
+                  <span className="text-deep-moss-green">Ideas</span> Into
+                  Lasting Spaces
                 </ContentTitle>
                 <ContentPara>
-                  At BrickYard, our mission goes beyond construction - we
-                  believe in creating environments that uplift, inspire, and
-                  transform lives.Our approach blends traditional craftsmanship
-                  with modern innovation, ensuring durability and elegance in
-                  every build.With a passion for quality craftsmanship and a
-                  commitment to client satisfaction, we have been proudly
-                  serving New York (USA) and surrounding areas for 13-Years of
-                  Experties.
+                  At ASK & ASSOCIATES - 3D Designing, Architecture, and Project
+                  Management Consultancy (PMC), we envision, innovate, and
+                  deliver architectural excellence that transforms spaces into
+                  enduring landmarks. By seamlessly blending creativity,
+                  technology, and expertise, we craft design solutions that not
+                  only fulfill but consistently surpass client aspirations. Our
+                  journey is defined by an unwavering passion for design, a
+                  relentless commitment to quality, and a steadfast dedication
+                  to turning visions into reality.
                 </ContentPara>
                 <ul className="p-0">
                   <li className="mb-2 d-flex border-philippine-gray pb-3 border-start-0 border-top-0 border-end-0">
-                    <div className="">
-                      <img
-                        src={HomeIcon}
-                        width={"24px"}
-                        height={"24px"}
-                        alt="Home"
-                      />
+                    <div>
+                      <img src={HomeIcon} width="24" height="24" alt="Home" />
                     </div>
                     <span className="text-dark-charcoal ms-2 fw-500 fs-5">
-                      Residential Construction
+                      Residential Design
                     </span>
                   </li>
+
                   <li className="mb-2 d-flex border-philippine-gray pb-3 border-start-0 border-top-0 border-end-0">
-                    <div className="">
+                    <div>
                       <img
                         src={BuildingIcon}
-                        width={"24px"}
-                        height={"24px"}
+                        width="24"
+                        height="24"
                         alt="Building"
                       />
                     </div>
                     <span className="text-dark-charcoal ms-2 fw-500 fs-5">
-                      Commercial Construction
+                      Commercial Design
                     </span>
                   </li>
+
                   <li className="mb-2 d-flex pb-3">
-                    <div className="">
+                    <div>
                       <img
                         src={HomeInteriorIcon}
-                        width={"24px"}
-                        height={"24px"}
+                        width="24"
+                        height="24"
                         alt="Home Interior"
                       />
                     </div>
                     <span className="text-dark-charcoal ms-2 fw-500 fs-5">
-                      Interior Design & Finishing
+                      Interior Styling
                     </span>
                   </li>
                 </ul>
-                <PrimaryBtn label={"More About Us"} />
+                <PrimaryBtn label={"More About Us"} path={"/about"} />
               </div>
             </Col>
           </Row>
@@ -134,12 +136,15 @@ const Home = () => {
               <div className="">
                 <ContentHeadCapsul>Our Services</ContentHeadCapsul>
                 <ContentTitle>
-                  <span className="text-deep-moss-green">Shaping Spaces</span>{" "}
-                  with Expertise, Innovation, and Care
+                  <span className="text-deep-moss-green">
+                    Transforming Spaces
+                  </span>{" "}
+                  with Precision & Innovation
                 </ContentTitle>
                 <SecondaryBtn
-                  label={"Explore Our Service "}
+                  label={"Explore Services"}
                   color={"text-eerie-black"}
+                  path={"/service"}
                 />
               </div>
             </Col>
@@ -160,7 +165,7 @@ const Home = () => {
                         </h4>
                         <p className="text-eerie-black mb-4">{service.para}</p>
                         <SecondaryBtn
-                          label={"Learn More"}
+                          label={"Know More"}
                           color={"text-eerie-black"}
                         />
                       </div>
@@ -176,87 +181,99 @@ const Home = () => {
           <div className="text-center mb-5">
             <ContentHeadCapsul>Why Choose Us</ContentHeadCapsul>
             <ContentTitle>
-              <span className="text-deep-moss-green">Elevating Standards</span>{" "}
-              in Construction
+              <span className="text-deep-moss-green">Why Choose Us</span> for
+              Your Projects
             </ContentTitle>
           </div>
           <Row className="justify-content-between">
             <Col lg={7} className="mb-md-4 my-lg-auto">
               <ul className="p-0 mx-4 mx-lg-0">
-                <li className="mb-4">
+                <li className="mb-4 mb-xl-5">
                   <Row className="">
                     <div className="why-choose-us-icon mb-4 mb-md-0">
                       <img
                         src={WhyChooseUsIcon1}
-                        alt="Accurate Measurements"
+                        alt="Precision Planning"
                         className="img-fluid"
                       />
                     </div>
                     <Col sm={12} md={6} lg={8} xl={6}>
                       <h5 className="h4 fw-600 text-eerie-black">
-                        Accurate Measurements
+                        Precision Planning
                       </h5>
                       <p className="mb-0 text-dark-charcoal">
-                        Lorem ipsum dolor sit amet consectetur. Dictum rhoncus
+                        Accurate measurements that ensure smooth, error-free
+                        execution.
                       </p>
                     </Col>
                   </Row>
                 </li>
-                <li className="mb-4">
+
+                <li className="mb-4 mb-xl-5">
                   <Row className="justify-content-start justify-content-md-center">
                     <div className="why-choose-us-icon mb-4 mb-md-0">
                       <img
                         src={WhyChooseUsIcon2}
-                        alt="Beat Sustainability"
+                        alt="Sustainable Practices"
                         className="img-fluid"
                       />
                     </div>
                     <Col sm={12} md={6} lg={8} xl={6} className="me-md-5">
                       <h5 className="h4 fw-600 text-eerie-black">
-                        Beat Sustainability
+                        Sustainable Practices
                       </h5>
                       <p className="mb-0 text-dark-charcoal">
-                        Lorem ipsum dolor sit amet consectetur. Dictum rhoncus
+                        Eco-friendly methods designed to reduce impact and
+                        enhance efficiency.
                       </p>
                     </Col>
-                    <Col sm={1} className="d-none d-md-block d-lg-none d-xl-block"></Col>
+                    <Col
+                      sm={1}
+                      className="d-none d-md-block d-lg-none d-xl-block"
+                    ></Col>
                   </Row>
                 </li>
-                <li className="mb-4">
+
+                <li className="mb-4 mb-xl-5">
                   <Row className="justify-content-start justify-content-md-center">
-                    <Col sm={1} className="d-none d-md-block d-lg-none d-xl-block"></Col>
+                    <Col
+                      sm={1}
+                      className="d-none d-md-block d-lg-none d-xl-block"
+                    ></Col>
                     <div className="why-choose-us-icon ms-md-4 mb-4 mb-md-0">
                       <img
                         src={WhyChooseUsIcon3}
-                        alt="Residential Structures"
+                        alt="Reliable Structures"
                         className="img-fluid"
                       />
                     </div>
                     <Col sm={12} md={6} lg={8} xl={6}>
                       <h5 className="h4 fw-600 text-eerie-black">
-                        Residential Structures
+                        Reliable Structures
                       </h5>
                       <p className="mb-0 text-dark-charcoal">
-                        Lorem ipsum dolor sit amet consectetur. Dictum rhoncus
+                        Strong and safe designs built to last for generations.
                       </p>
                     </Col>
                   </Row>
                 </li>
-                <li className="mb-4">
+
+                <li className="mb-4 mb-xl-5">
                   <Row className="justify-content-start justify-content-md-end">
                     <div className="why-choose-us-icon mb-4 mb-md-0">
                       <img
                         src={WhyChooseUsIcon4}
-                        alt="Tackle Environment"
+                        alt="Environmental Care"
                         className="img-fluid"
                       />
                     </div>
                     <Col sm={12} md={6} lg={8} xl={6}>
                       <h5 className="h4 fw-600 text-eerie-black">
-                        Tackle Environment
+                        Environmental Care
                       </h5>
                       <p className="mb-0 text-dark-charcoal">
-                        Lorem ipsum dolor sit amet consectetur. Dictum rhoncus
+                        Smart solutions crafted to protect and preserve the
+                        environment.
                       </p>
                     </Col>
                   </Row>
@@ -280,34 +297,38 @@ const Home = () => {
               <div className="border-honeydew border-start-0 border-top-0 border-end-0 mb-4">
                 <h3 className="display-4 text-menthol fw-600">120+</h3>
                 <h6 className="h5 text-honeydew fw-600 mb-4">
-                  Completed Projects
+                  Projects Delivered
                 </h6>
               </div>
               <p className="mb-0 text-cultured">
-                Lorem ipsum dolor sit amet consectetur. Mattis orci purus
-                egestas dis enim non feugiat bibendum tristique.
+                Successfully delivered projects built with precision, quality,
+                and trust.
               </p>
             </Col>
+
             <Col md={4} className="mb-5">
               <div className="border-honeydew border-start-0 border-top-0 border-end-0 mb-4">
                 <h3 className="display-4 text-menthol fw-600">10k+</h3>
-                <h6 className="h5 text-honeydew fw-600 mb-4">CHappy Clients</h6>
+                <h6 className="h5 text-honeydew fw-600 mb-4">
+                  Satisfied Clients
+                </h6>
               </div>
               <p className="mb-0 text-cultured">
-                Lorem ipsum dolor sit amet consectetur. Mattis orci purus
-                egestas dis enim non feugiat bibendum tristique.
+                A growing community of clients satisfied with our commitment and
+                excellence.
               </p>
             </Col>
+
             <Col md={4}>
               <div className="border-honeydew border-start-0 border-top-0 border-end-0 mb-4">
                 <h3 className="display-4 text-menthol fw-600">24+</h3>
                 <h6 className="h5 text-honeydew fw-600 mb-4">
-                  On-Going Projects
+                  Active Projects
                 </h6>
               </div>
               <p className="mb-0 text-cultured">
-                Lorem ipsum dolor sit amet consectetur. Mattis orci purus
-                egestas dis enim non feugiat bibendum tristique.
+                Actively managed projects progressing with efficiency and
+                transparency.
               </p>
             </Col>
           </Row>
@@ -319,27 +340,28 @@ const Home = () => {
         <Container>
           <div className="mb-4">
             <ContentHeadCapsul>Featured Projects</ContentHeadCapsul>
-            <div className="d-flex justify-content-between  flex-column flex-lg-row">
+            <div className="d-flex justify-content-between align-items-center flex-column flex-lg-row">
               <ContentTitle>
                 Proudly Presenting Our{" "}
                 <span className="text-deep-moss-green">Finest Projects</span>
               </ContentTitle>
               <SecondaryBtn
-                label={"Explore Projects"}
+                label={"View Projects"}
                 color={"text-eerie-black"}
+                path={"/projects"}
               />
             </div>
           </div>
-          <Row className="mt-5 align-items-md-center justify-content-md-center">
+          <Row className="mt-5 justify-content-md-center">
             {featuredProjects &&
               featuredProjects.map((project) => (
                 <Col className="mb-4" key={project.id} md={6} lg={4}>
-                  <div className="project-section cursor-pointer">
-                    <div className="overflow-hidden">
+                  <div className="project-section cursor-pointer border-silver-chalice border-top-0 border-start-0 border-end-0">
+                    <div className="overflow-hidden d-flex flex-column">
                       <img
                         className="project-img img-fluid"
                         src={project.image}
-                        alt={project.title}
+                        alt="project"
                       />
                     </div>
                     <a
@@ -348,13 +370,12 @@ const Home = () => {
                     >
                       {project.linktext}
                     </a>
-                    <div className="d-flex justify-content-between align-items-center align-items-lg-end mt-2 mb-3">
-                      <h5 className="h4  m-0 text-phthalo-green fw-600">
+                    <div className="d-flex justify-content-between align-items-center mt-2 mb-4">
+                      <h5 className="h4 m-0 text-phthalo-green fw-600">
                         {project.title}
                       </h5>
                       <img src={icon} alt="icon" width="24px" />
                     </div>
-                    <div className="border-silver-chalice border-top-0"></div>
                   </div>
                 </Col>
               ))}
@@ -365,10 +386,13 @@ const Home = () => {
         <Container>
           <div className="max-w-500 mx-auto text-center mb-5">
             <ContentHeadCapsul>Latest News</ContentHeadCapsul>
-            <ContentTitle>Stay Informed with Our Latest Blogs</ContentTitle>
+            <ContentTitle>
+              Explore <span className="text-deep-moss-green">Insights</span>{" "}
+              from Our Latest Blogs
+            </ContentTitle>
             <ContentPara textColor={"text-dark-charcoal"}>
-              Discover Construction Trends: Uncover Insights and Innovations in
-              Our Latest Blog.
+              Stay updated with industry trends, expert insights, and the latest
+              innovations in construction and design.
             </ContentPara>
           </div>
           <Row className="justify-content-md-center">
@@ -384,7 +408,7 @@ const Home = () => {
                       />
                     </div>
                     <p className="mb-0 mt-3 text-deep-moss-green">
-                      November 24 ,2024
+                      {blog.date}
                     </p>
                     <div className="d-flex justify-content-between align-items-end mt-2 mb-4">
                       <h5 className="h4 mb-0 me-2 text-eerie-black fw-600">

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import ContentHeading from "../components/ContentHeading";
 import ContentTitle from "../components/ContentTitle";
 import { ourProject } from "../data";
@@ -15,13 +15,13 @@ const Projects = () => {
         <Container>
           <div className="mb-5">
             <ContentHeading heading={"Projects"} />
-            <ContentTitle>Proudly Presenting Our Finest Projects</ContentTitle>
+            <ContentTitle>Showcasing Our Signature Projects</ContentTitle>
           </div>
-          <div className="row">
+          <Row>
             {ourProject.map((project) => (
-              <div key={project.id} className="col-md-6 col-sm-6 mb-4">
-                <div className="cursor-pointer">
-                  <div className="project-section overflow-hidden">
+              <Col key={project.id} sm={12} md={6} className="mb-4">
+                <div className="project-section cursor-pointer border-silver-chalice border-top-0 border-start-0 border-end-0 h-100">
+                  <div className="overflow-hidden d-flex flex-column">
                     <img
                       className="project-img img-fluid"
                       src={project.image}
@@ -40,11 +40,10 @@ const Projects = () => {
                     </h5>
                     <img src={icon} alt="icon" width="24px" />
                   </div>
-                  <div className="border-silver-chalice border-top-0"></div>
                 </div>
-              </div>
+              </Col>
             ))}
-          </div>
+          </Row>
         </Container>
       </section>
       <OurTeam />

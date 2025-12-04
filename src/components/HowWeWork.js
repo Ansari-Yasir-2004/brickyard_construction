@@ -1,9 +1,8 @@
 import React from "react";
 import ContentHeadCapsul from "./ContentHeadCapsul";
 import ContentTitle from "./ContentTitle";
-import PauseOnHover from "./PauseOnHover";
 import { worker } from "../data";
-import { Container } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
 const HowWeWork = () => {
   return (
@@ -12,31 +11,24 @@ const HowWeWork = () => {
         <div className="text-center mb-5">
           <ContentHeadCapsul>How We Work?</ContentHeadCapsul>
           <ContentTitle>
-            Built on <span className="text-deep-moss-green">Precision</span>,{" "}
-            Driven by <span className="text-deep-moss-green"> Excellence</span>
+            Powered by <span className="text-deep-moss-green">Precision </span>
+            and{" "}
+            <span className="text-deep-moss-green">Expert Craftsmanship</span>
           </ContentTitle>
         </div>
-        <PauseOnHover
-          dots={false}
-          infinite={true}
-          slidesToShow={4}
-          slidesToScroll={4}
-          autoplay={true}
-          autoplaySpeed={2000}
-          arrows={false}
-        >
+        <Row>
           {worker.map((work) => (
-            <div key={work.id} className="col-sm-12">
-              <div className="border-light-silver p-4 mx-2 rounded-4">
+            <Col key={work.id} sm={12} md={6} lg={3} className="mb-4">
+              <div className="border-light-silver p-4 rounded-4 h-100">
                 <img className="worker-image" src={work.image} alt="worker" />
                 <h5 className="h4 fw-600 mb-3 mt-3 text-eerie-black ">
                   {work.title}
                 </h5>
-                <p>{work.para}</p>
+                <p className="mb-0">{work.para}</p>
               </div>
-            </div>
+            </Col>
           ))}
-        </PauseOnHover>
+        </Row>
       </Container>
     </section>
   );

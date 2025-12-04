@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const SecondaryBtn = ({ label, color }) => {
+const SecondaryBtn = ({ label, color, path }) => {
   return (
-    <a
-      href="/contact"
+    <Link
+      to={path}
       className={`${color} fs-sm-14 fw-500 py-2 nav-btn-2 d-inline-block`}
     >
       {label}{" "}
@@ -18,13 +19,13 @@ const SecondaryBtn = ({ label, color }) => {
           <path
             d="M4 12.5h16m0 0-6-6m6 6-6 6"
             stroke="currentColor"
-            stroke-width="1.4"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="1.4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </svg>
       </span>
-    </a>
+    </Link>
   );
 };
 

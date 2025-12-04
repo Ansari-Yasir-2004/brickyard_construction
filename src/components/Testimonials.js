@@ -14,12 +14,12 @@ const Testimonials = () => {
         <div className="max-w-500 mx-auto text-center mb-5">
           <ContentHeadCapsul>Testimonials</ContentHeadCapsul>
           <ContentTitle>
-            What Our Customers Say{" "}
-            <span className="text-deep-moss-green">About Us</span>
+            What Our Clients{" "}
+            <span className="text-deep-moss-green">Say About Us</span>
           </ContentTitle>
           <ContentPara>
-            90% Customer Satisfaction based on 750+ reviews and 6,154 Completed
-            Projects.
+            Trusted by thousands — with 90% satisfaction across 750+ reviews and
+            over 6,000 completed projects.
           </ContentPara>
         </div>
         <PauseOnHover

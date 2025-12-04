@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Form, Row } from "react-bootstrap";
-import CompanyLogo from "../assets/images/webp/company-logo-2.webp";
+import CompanyLogo from "../assets/images/png/ask-and-associates-logo-2.png";
 import PrimaryBtn from "./PrimaryBtn";
 import { Link } from "react-router-dom";
 import LocationIcon from "../assets/images/webp/location-icon.webp";
@@ -137,7 +137,8 @@ const Footer = () => {
                     />
                   </div>
                   <span className="text-honeydew ms-2">
-                    2715 Ash Dr. San Jose, South Dakota 83475
+                    Shop no.19, Stone flower Building,opp.KMES School, Bhiwandi,
+                    Thane, Pin :-421302
                   </span>
                 </li>
                 <li className="mb-2 d-flex">
@@ -150,7 +151,7 @@ const Footer = () => {
                     />
                   </div>
                   <span className="text-honeydew ms-2">
-                    hello.brickyard@gmail.com
+                    askandassociates2017@gmail.com
                   </span>
                 </li>
                 <li className="mb-2 d-flex">
@@ -162,7 +163,7 @@ const Footer = () => {
                       alt="Location"
                     />
                   </div>
-                  <span className="text-honeydew ms-2">+(528) 456-7592</span>
+                  <span className="text-honeydew ms-2">+91-7021222937</span>
                 </li>
               </ul>
             </Col>

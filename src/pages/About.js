@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/styles/about.css"
+import "../assets/styles/about.css";
 import OurTeam from "../components/OurTeam";
 import HowWeWork from "../components/HowWeWork";
 import Consultation from "../components/Consultation";
@@ -22,9 +22,11 @@ const About = () => {
           <div className="mb-5">
             <ContentHeading heading={"Our Story"} />
             <ContentTitle>
-              Our goal is to exceed the{" "}
-              <span className="text-deep-moss-green">client expectations</span>{" "}
-              through meticulous planning, execution, and quality assurance.
+              We strive to consistently{" "}
+              <span className="text-deep-moss-green">
+                exceed client expectations
+              </span>{" "}
+              with precise planning and superior execution.
             </ContentTitle>
           </div>
           <Row className="gap-5">
@@ -56,68 +58,76 @@ const About = () => {
                     </Col>
                   </Row>
                 </Col>
-                <Col md={12}xl={6} className="d-flex">
-                  <div className="my-auto mt-5">
+                <Col md={12} xl={6} className="d-flex">
+                  <div className="my-auto">
                     <ContentTitle>
-                      Our <span className="text-deep-moss-green">Vision</span>
+                      Our <span className="text-deep-moss-green">vision</span>
                     </ContentTitle>
                     <ContentPara textColor={"text-dark-charcoal"}>
-                      Where we bring visions to life with quality and
-                      unflinching dedication. Our mission is to be the leading
-                      construction company known for turning innovative ideas
-                      into spectacular reality.
+                      At ASK & ASSOCIATES, our vision is to redefine the way
+                      people experience architecture. We aspire to shape a
+                      future where buildings are not only functional structures
+                      but also lasting testaments to human creativity and
+                      innovation. Through our meticulous 3D design process, we
+                      breathe life into every blueprint—transforming dreams into
+                      reality and aspirations into enduring form.
                     </ContentPara>
                     <ul className="p-0">
                       <li className="mb-3 d-flex align-items-center border-philippine-gray pb-3 border-start-0 border-top-0 border-end-0">
-                        <div className="">
+                        <div>
                           <img
                             src={CheckCircleBroken}
-                            width={"24px"}
-                            height={"24px"}
+                            width="24px"
+                            height="24px"
                             alt="check circle broken"
                           />
                         </div>
                         <span className="text-dark-charcoal ms-3 fs-sm-14 our-text">
-                          Promoting eco-friendly development and expansion
+                          Creating spaces that inspire creativity and innovation
                         </span>
                       </li>
+
                       <li className="mb-3 d-flex align-items-center border-philippine-gray pb-3 border-start-0 border-top-0 border-end-0">
-                        <div className="">
+                        <div>
                           <img
                             src={CheckCircleBroken}
-                            width={"24px"}
-                            height={"24px"}
+                            width="24px"
+                            height="24px"
                             alt="check circle broken"
                           />
                         </div>
                         <span className="text-dark-charcoal ms-3 fs-sm-14 our-text">
-                          Promoting eco-friendly development and expansion
+                          Designing environments that elevate human experience
                         </span>
                       </li>
+
                       <li className="mb-3 d-flex align-items-center border-philippine-gray pb-3 border-start-0 border-top-0 border-end-0">
-                        <div className="">
+                        <div>
                           <img
                             src={CheckCircleBroken}
-                            width={"24px"}
-                            height={"24px"}
+                            width="24px"
+                            height="24px"
                             alt="check circle broken"
                           />
                         </div>
                         <span className="text-dark-charcoal ms-3 fs-sm-14 our-text">
-                          Promoting eco-friendly development and expansion
+                          Transforming ideas into purposeful, enduring
+                          structures
                         </span>
                       </li>
+
                       <li className="mb-3 d-flex align-items-center">
-                        <div className="">
+                        <div>
                           <img
                             src={CheckCircleBroken}
-                            width={"24px"}
-                            height={"24px"}
+                            width="24px"
+                            height="24px"
                             alt="check circle broken"
                           />
                         </div>
                         <span className="text-dark-charcoal ms-3 fs-sm-14 our-text">
-                          Promoting eco-friendly development and expansion
+                          Blending design, technology & precision for
+                          future-ready architecture
                         </span>
                       </li>
                     </ul>
@@ -128,67 +138,75 @@ const About = () => {
             <Col sm={12}>
               <Row>
                 <Col md={12} xl={6} className="d-flex">
-                  <div className="my-auto mb-4">
+                  <div className="my-auto ">
                     <ContentTitle>
-                      Our <span className="text-deep-moss-green">Mission</span>
+                      Our <span className="text-deep-moss-green">mission</span>
                     </ContentTitle>
                     <ContentPara textColor={"text-dark-charcoal"}>
-                      Where we bring visions to life with quality and
-                      unflinching dedication. Our mission is to be the leading
-                      construction company known for turning innovative ideas
-                      into spectacular reality.
+                      At ASK & ASSOCIATES, our mission is to deliver excellence
+                      through thoughtful planning, precise execution, and
+                      unwavering commitment to quality. We aim to create
+                      structures that reflect innovation, reliability, and
+                      long-lasting value.
                     </ContentPara>
                     <ul className="p-0">
                       <li className="mb-3 d-flex align-items-center border-philippine-gray pb-3 border-start-0 border-top-0 border-end-0">
-                        <div className="">
+                        <div>
                           <img
                             src={CheckCircleBroken}
-                            width={"24px"}
-                            height={"24px"}
-                            alt="check circle broken"
-                          />
-                        </div>
-                        <span className="text-dark-charcoal ms-3  fs-sm-14 our-text">
-                          Promoting eco-friendly development and expansion
-                        </span>
-                      </li>
-                      <li className="mb-3 d-flex align-items-center border-philippine-gray pb-3 border-start-0 border-top-0 border-end-0">
-                        <div className="">
-                          <img
-                            src={CheckCircleBroken}
-                            width={"24px"}
-                            height={"24px"}
+                            width="24px"
+                            height="24px"
                             alt="check circle broken"
                           />
                         </div>
                         <span className="text-dark-charcoal ms-3 fs-sm-14 our-text">
-                          Promoting eco-friendly development and expansion
+                          Delivering projects with precision, transparency, and
+                          trust
                         </span>
                       </li>
+
                       <li className="mb-3 d-flex align-items-center border-philippine-gray pb-3 border-start-0 border-top-0 border-end-0">
-                        <div className="">
+                        <div>
                           <img
                             src={CheckCircleBroken}
-                            width={"24px"}
-                            height={"24px"}
+                            width="24px"
+                            height="24px"
                             alt="check circle broken"
                           />
                         </div>
                         <span className="text-dark-charcoal ms-3 fs-sm-14 our-text">
-                          Promoting eco-friendly development and expansion
+                          Ensuring quality craftsmanship in every stage of
+                          construction
                         </span>
                       </li>
+
+                      <li className="mb-3 d-flex align-items-center border-philippine-gray pb-3 border-start-0 border-top-0 border-end-0">
+                        <div>
+                          <img
+                            src={CheckCircleBroken}
+                            width="24px"
+                            height="24px"
+                            alt="check circle broken"
+                          />
+                        </div>
+                        <span className="text-dark-charcoal ms-3 fs-sm-14 our-text">
+                          Adopting smart, future-ready design and project
+                          solutions
+                        </span>
+                      </li>
+
                       <li className="mb-3 d-flex align-items-center">
-                        <div className="">
+                        <div>
                           <img
                             src={CheckCircleBroken}
-                            width={"24px"}
-                            height={"24px"}
+                            width="24px"
+                            height="24px"
                             alt="check circle broken"
                           />
                         </div>
                         <span className="text-dark-charcoal ms-3 fs-sm-14 our-text">
-                          Promoting eco-friendly development and expansion
+                          Building spaces that add lasting value to people and
+                          communities
                         </span>
                       </li>
                     </ul>

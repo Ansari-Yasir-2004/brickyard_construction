@@ -16,21 +16,22 @@ const Consultation = () => {
               md={8}
               lg={6}
               xl={5}
-              className="main-col d-flex position-relative"
+              className="main-col d-flex"
+              style={{ zIndex: "1" }}
             >
               <div className="my-auto">
                 <ContentTitle>
-                  Contact Us Today for a{" "}
+                  Get in Touch for a{" "}
                   <span className="text-deep-moss-green">
                     Free Consultation
-                  </span>{" "}
+                  </span>
                 </ContentTitle>
                 <ContentPara textColor={"text-eerie-black"}>
-                  At Brickyard, we believe that every construction project is an
-                  opportunity to create something exceptional.
+                  At Brickyard, we're committed to turning your ideas into
+                  well-planned, high-quality spaces.
                 </ContentPara>
                 <div className="d-inline-block">
-                  <PrimaryBtn label={"Get Free Quote"} />
+                  <PrimaryBtn label={"Request a Quote"} path={"/contact"} />
                 </div>
               </div>
             </Col>

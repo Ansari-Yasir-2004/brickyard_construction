@@ -17,14 +17,25 @@ import serviceimg3 from "./assets/images/webp/service-image-3.webp";
 import serviceimg4 from "./assets/images/webp/service-image-4.webp";
 import serviceimg5 from "./assets/images/webp/service-image-5.webp";
 import serviceimg6 from "./assets/images/webp/service-image-6.webp";
-import projectimg1 from "./assets/images/webp/project-image-1.webp";
-import projectimg2 from "./assets/images/webp/project-image-2.webp";
-import projectimg3 from "./assets/images/webp/project-image-3.webp";
-import projectimg4 from "./assets/images/webp/project-image-4.webp";
-import projectimg5 from "./assets/images/webp/project-image-5.webp";
-import projectimg6 from "./assets/images/webp/project-image-6.webp";
-import projectimg7 from "./assets/images/webp/project-image-7.webp";
-import projectimg8 from "./assets/images/webp/project-image-8.webp";
+import projectimg1 from "./assets/images/jpg/ask-and-associates-projects-img-1.png";
+import projectimg2 from "./assets/images/jpg/ask-and-associates-projects-img-2.png";
+import projectimg3 from "./assets/images/jpg/ask-and-associates-projects-img-3.png";
+import projectimg4 from "./assets/images/jpg/ask-and-associates-projects-img-4.png";
+import projectimg5 from "./assets/images/jpg/ask-and-associates-projects-img-5.png";
+import projectimg6 from "./assets/images/jpg/ask-and-associates-projects-img-6.png";
+import projectimg7 from "./assets/images/jpg/ask-and-associates-projects-img-7.png";
+import projectimg8 from "./assets/images/jpg/ask-and-associates-projects-img-8.png";
+import projectimg9 from "./assets/images/jpg/ask-and-associates-projects-img-9.png";
+import projectimg10 from "./assets/images/jpg/ask-and-associates-projects-img-10.png";
+import projectimg11 from "./assets/images/jpg/ask-and-associates-projects-img-11.png";
+import projectimg12 from "./assets/images/jpg/ask-and-associates-projects-img-12.png";
+import projectimg13 from "./assets/images/jpg/ask-and-associates-projects-img-13.png";
+import projectimg14 from "./assets/images/jpg/ask-and-associates-projects-img-14.png";
+import projectimg15 from "./assets/images/jpg/ask-and-associates-projects-img-15.png";
+import projectimg16 from "./assets/images/jpg/ask-and-associates-projects-img-16.png";
+import projectimg17 from "./assets/images/jpg/ask-and-associates-projects-img-17.png";
+import projectimg18 from "./assets/images/jpg/ask-and-associates-projects-img-18.png";
+import projectimg19 from "./assets/images/jpg/ask-and-associates-projects-img-19.png";
 import shopimg1 from "./assets/images/webp/shop-image-1.webp";
 import shopimg2 from "./assets/images/webp/shop-image-2.webp";
 import shopimg3 from "./assets/images/webp/shop-image-3.webp";
@@ -76,66 +87,66 @@ export const customerReview = [
   {
     id: 1,
     customerReview:
-      "Lorem ipsum dolor sit amet consectetur. Aliquam elementum lobortis nam dui feugiat neque tempor ultricies nunc. Est aliquam tellus eget et orci mi. Posuere id platea donec convallis adipiscing etiam facilisis donec.",
+      "The team truly understands design and functionality. They delivered exactly what we imagined, with exceptional attention to detail.",
     customerImage: CustomerImg1,
-    customerName: "Esther Howard",
-    customerDesignation: "Founder, Navana",
+    customerName: "Rohan Sharma",
+    customerDesignation: "Home Owner, Pune",
   },
   {
     id: 2,
     customerReview:
-      "Lorem ipsum dolor sit amet consectetur. Aliquam elementum lobortis nam dui feugiat neque tempor ultricies nunc. Est aliquam tellus eget et orci mi. Posuere id platea donec convallis adipiscing etiam facilisis donec.",
+      "Professional, punctual, and highly creative. Our commercial project was handled smoothly from start to finish.",
     customerImage: CustomerImg1,
-    customerName: "Esther Howard",
-    customerDesignation: "Founder, Navana",
+    customerName: "Priya Verma",
+    customerDesignation: "Business Owner, Mumbai",
   },
   {
     id: 3,
     customerReview:
-      "Lorem ipsum dolor sit amet consectetur. Aliquam elementum lobortis nam dui feugiat neque tempor ultricies nunc. Est aliquam tellus eget et orci mi. Posuere id platea donec convallis adipiscing etiam facilisis donec.",
+      "From planning to execution, everything was well-coordinated. Great communication and impressive work quality.",
     customerImage: CustomerImg1,
-    customerName: "Esther Howard",
-    customerDesignation: "Founder, Navana",
+    customerName: "Amit Desai",
+    customerDesignation: "Project Head, Ahmedabad",
   },
   {
     id: 4,
     customerReview:
-      "Lorem ipsum dolor sit amet consectetur. Aliquam elementum lobortis nam dui feugiat neque tempor ultricies nunc. Est aliquam tellus eget et orci mi. Posuere id platea donec convallis adipiscing etiam facilisis donec.",
+      "Their design ideas completely transformed our space. Highly satisfied with the final outcome.",
     customerImage: CustomerImg1,
-    customerName: "Esther Howard",
-    customerDesignation: "Founder, Navana",
+    customerName: "Sneha Kulkarni",
+    customerDesignation: "Interior Client, Nagpur",
   },
   {
     id: 5,
     customerReview:
-      "Lorem ipsum dolor sit amet consectetur. Aliquam elementum lobortis nam dui feugiat neque tempor ultricies nunc. Est aliquam tellus eget et orci mi. Posuere id platea donec convallis adipiscing etiam facilisis donec.",
+      "Amazing experience. The team delivered on time and maintained excellent workmanship throughout.",
     customerImage: CustomerImg1,
-    customerName: "Esther Howard",
-    customerDesignation: "Founder, Navana",
+    customerName: "Vikram Singh",
+    customerDesignation: "Villa Owner, Jaipur",
   },
   {
     id: 6,
     customerReview:
-      "Lorem ipsum dolor sit amet consectetur. Aliquam elementum lobortis nam dui feugiat neque tempor ultricies nunc. Est aliquam tellus eget et orci mi. Posuere id platea donec convallis adipiscing etiam facilisis donec.",
+      "Very reliable and skilled. They proposed practical solutions while keeping aesthetics in mind.",
     customerImage: CustomerImg1,
-    customerName: "Esther Howard",
-    customerDesignation: "Founder, Navana",
+    customerName: "Megha Nair",
+    customerDesignation: "Apartment Owner, Kochi",
   },
   {
     id: 7,
     customerReview:
-      "Lorem ipsum dolor sit amet consectetur. Aliquam elementum lobortis nam dui feugiat neque tempor ultricies nunc. Est aliquam tellus eget et orci mi. Posuere id platea donec convallis adipiscing etiam facilisis donec.",
+      "Their project management is top-notch. We didn’t have to worry about anything — completely hassle-free.",
     customerImage: CustomerImg1,
-    customerName: "Esther Howard",
-    customerDesignation: "Founder, Navana",
+    customerName: "Ankit Patel",
+    customerDesignation: "Developer, Surat",
   },
   {
     id: 8,
     customerReview:
-      "Lorem ipsum dolor sit amet consectetur. Aliquam elementum lobortis nam dui feugiat neque tempor ultricies nunc. Est aliquam tellus eget et orci mi. Posuere id platea donec convallis adipiscing etiam facilisis donec.",
+      "Great team to work with! They delivered quality work and kept everything transparent throughout the project.",
     customerImage: CustomerImg1,
-    customerName: "Esther Howard",
-    customerDesignation: "Founder, Navana",
+    customerName: "Neha Gupta",
+    customerDesignation: "Owner, Delhi NCR",
   },
 ];
 
@@ -143,25 +154,25 @@ export const ourTeam = [
   {
     id: 1,
     image: MemberImage1,
-    name: "Kamal Verma",
+    name: "Amit Sharma",
     designation: "Construction Manager",
   },
   {
     id: 2,
     image: MemberImage2,
-    name: "Richard Warner",
-    designation: "Building Worker",
+    name: "Rohit Desai",
+    designation: "Site Supervisor",
   },
   {
     id: 3,
     image: MemberImage3,
-    name: "Vinayak Kamble",
+    name: "Neeraj Kulkarni",
     designation: "Project Manager",
   },
   {
     id: 4,
     image: MemberImage4,
-    name: "Md Hussain",
+    name: "Faizan Ahmad",
     designation: "Civil Engineer",
   },
 ];
@@ -171,25 +182,25 @@ export const worker = [
     id: 1,
     image: workimage1,
     title: "Planning",
-    para: "At BrickYard, our planning process is the foundation of every successful project. We begin by listening closely to our clients, understanding their vision, goals, and requirements.",
+    para: "Our process begins with understanding your vision, requirements, and project goals. We analyze every detail to create a clear and strategic foundation for your project.",
   },
   {
     id: 2,
     image: workimage2,
-    title: "Development",
-    para: "In the development process at BrickYard, we bring plans to life with a focus on quality and efficiency. Our skilled team ensures that every detail aligns with our clients’ vision.",
+    title: "Design & Development",
+    para: "Once the plan is set, our team transforms concepts into detailed designs and workable solutions. Every element is refined to ensure accuracy, creativity, and functionality.",
   },
   {
     id: 3,
     image: workimage3,
     title: "Construction",
-    para: "The construction process at BrickYard is where vision meets execution. Our dedicated team work in detailed plans into tangible ensuring every phase is executed with precision and care.",
+    para: "This is where ideas turn into reality. With precise execution and skilled workmanship, we ensure every phase is completed with quality, safety, and efficiency.",
   },
   {
     id: 4,
     image: workimage4,
     title: "Handover",
-    para: "At BrickYard, the handover process marks the culmination of our commitment to quality and client satisfaction. Once construction is complete, we conduct a thorough walkthrough with our clients.",
+    para: "After inspection and quality checks, we deliver the completed project with full transparency and satisfaction. A seamless handover marks the start of your new space.",
   },
 ];
 
@@ -197,26 +208,26 @@ export const ourServices = [
   {
     id: 1,
     image: OurServiceImg1,
-    title: "Residential Construction",
-    para: "Lorem ipsum dolor sit amet consectetur. Dictum rhoncus id sed ullamcorper amet aliquam.......",
+    title: "Residential Design",
+    para: "We design and build comfortable, functional, and modern homes with a focus on quality craftsmanship.",
   },
   {
     id: 2,
     image: OurServiceImg2,
-    title: "Structrual Engineering",
-    para: "Lorem ipsum dolor sit amet consectetur. Dictum rhoncus id sed ullamcorper amet aliquam.......",
+    title: "Structural Solutions",
+    para: "Our expert engineering solutions ensure strong, safe, and durable structures built to the highest standards.",
   },
   {
     id: 3,
     image: OurServiceImg3,
-    title: "Commercial Construction",
-    para: "Lorem ipsum dolor sit amet consectetur. Dictum rhoncus id sed ullamcorper amet aliquam.......",
+    title: "Commercial Development",
+    para: "From offices to retail spaces, we deliver high-performance commercial environments tailored to your needs.",
   },
   {
     id: 4,
     image: OurServiceImg4,
-    title: "Home Interior Design",
-    para: "Lorem ipsum dolor sit amet consectetur. Dictum rhoncus id sed ullamcorper amet aliquam.......",
+    title: "Interior Styling",
+    para: "We create elegant, functional interiors that reflect your lifestyle while maximizing comfort and aesthetics.",
   },
 ];
 
@@ -224,83 +235,149 @@ export const ourService = [
   {
     id: 1,
     image: serviceimg1,
-    title: "Renovation & Remodeling",
+    title: "Space Renewal & Upgradation",
   },
   {
     id: 2,
     image: serviceimg2,
-    title: "Commercial Construction",
+    title: "Commercial Build & Development",
   },
   {
     id: 3,
     image: serviceimg3,
-    title: "Home Interior Design",
+    title: "Modern Home Interiors",
   },
   {
     id: 4,
     image: serviceimg4,
-    title: "Structural Engineering",
+    title: "Advanced Structural Solutions",
   },
   {
     id: 5,
     image: serviceimg5,
-    title: "Foundation Construction",
+    title: "Foundation & Base Work",
   },
   {
     id: 6,
     image: serviceimg6,
-    title: "Residential Construction",
+    title: "Residential Design & Build",
   },
 ];
 
 export const ourProject = [
   {
     id: 1,
-    image: projectimg1,
-    linktext: "Industrial Construction New York, NY",
-    title: "Greenfield Industrial Park",
+    image: projectimg4,
+    linktext: "Commercial San Francisco, CA",
+    title: "Usha Joshi Park Phase III",
   },
   {
     id: 2,
-    image: projectimg2,
-    linktext: "Institutional Building Chicago, IL",
-    title: "Metro Convention Center",
+    image: projectimg14,
+    linktext: "Commercial Austin,TX",
+    title: "Ashraf Height",
   },
   {
     id: 3,
-    image: projectimg3,
-    linktext: "Educational Facility Grorgia, USA",
-    title: "Sunrise International School",
+    image: projectimg1,
+    linktext: "Industrial Construction New York, NY",
+    title: "Royal Residency",
   },
   {
     id: 4,
-    image: projectimg4,
-    linktext: "Commercial San Francisco, CA",
-    title: "CityHub Tower",
+    image: projectimg11,
+    linktext: "Commercial Austin,TX",
+    title: "SK Farm",
   },
   {
     id: 5,
-    image: projectimg5,
-    linktext: "Residential Apartments New York, NY",
-    title: "Skyline Residences",
+    image: projectimg9,
+    linktext: "Commercial Austin,TX",
+    title: "Bhumi Imperial",
   },
   {
     id: 6,
-    image: projectimg6,
-    linktext: "Hospitality Project Orlando, FL",
-    title: "Horizon Hotel & Resort",
+    image: projectimg13,
+    linktext: "Commercial Austin,TX",
+    title: "Baug-E-Suraiyya",
   },
   {
     id: 7,
     image: projectimg7,
     linktext: "Residential Apartments Miami, FL",
-    title: "Central Plaza Mall",
+    title: "Pitambre Height",
   },
   {
     id: 8,
     image: projectimg8,
     linktext: "Commercial Austin,TX",
-    title: "Riverside Villa",
+    title: "Patil Bungalow",
+  },
+  {
+    id: 9,
+    image: projectimg2,
+    linktext: "Institutional Building Chicago, IL",
+    title: "Vison Srushti",
+  },
+  {
+    id: 10,
+    image: projectimg18,
+    linktext: "Commercial Austin,TX",
+    title: "Mount City",
+  },
+  {
+    id: 11,
+    image: projectimg16,
+    linktext: "Commercial Austin,TX",
+    title: "Sumukh Galaxia",
+  },
+  {
+    id: 12,
+    image: projectimg19,
+    linktext: "Commercial Austin,TX",
+    title: "Royal Place",
+  },
+  {
+    id: 13,
+    image: projectimg5,
+    linktext: "Residential Apartments New York, NY",
+    title: "Sky Height",
+  },
+  {
+    id: 14,
+    image: projectimg15,
+    linktext: "Commercial Austin,TX",
+    title: "Horizon Bhumi",
+  },
+  {
+    id: 15,
+    image: projectimg12,
+    linktext: "Commercial Austin,TX",
+    title: "Silver Stone",
+  },
+  {
+    id: 16,
+    image: projectimg17,
+    linktext: "Commercial Austin,TX",
+    title: "Karnika Galaxy 2.0",
+  },
+  {
+    id: 17,
+    image: projectimg10,
+    linktext: "Commercial Austin,TX",
+    title: "Gul-Aziz Residency",
+  },
+  {
+    id: 18,
+    image: projectimg3,
+    linktext: "Educational Facility Grorgia, USA",
+    title: "Ananta Solapur",
+  },
+  {
+    id: 19,
+    image: projectimg6,
+    linktext: "Hospitality Project Orlando, FL",
+    title: "Patrawala Arcade",
   },
 ];
 
@@ -366,69 +443,87 @@ export const ourBlog = [
   {
     id: 1,
     image: blogimg1,
-    title: "Innovative Trends in Modern Architecture and Building Design",
+    date: "January 12, 2025",
+    title: "Emerging Design Innovations Shaping Modern Architecture",
+    description:
+      "Explore the newest architectural concepts and design strategies redefining the way contemporary structures are created.",
   },
   {
     id: 2,
     image: blogimg2,
-    title:
-      "How to Choose the Right Contractor for Your Next Construction Project",
+    date: "January 10, 2025",
+    title: "A Complete Guide to Choosing the Right Contractor for Your Project",
+    description:
+      "Understand the key factors that help you evaluate contractors and ensure a smooth, successful construction journey.",
   },
   {
     id: 3,
     image: blogimg3,
-    title:
-      "Residential vs. Commercial Construction: Key Differences You Need to Know",
+    date: "January 08, 2025",
+    title: "Residential vs Commercial Construction: What Sets Them Apart?",
+    description:
+      "Learn the fundamental differences in planning, design, and execution between residential and commercial projects.",
   },
   {
     id: 4,
     image: blogimg4,
-    title:
-      "The Role of Project Management in Delivering Construction Projects on Time",
+    date: "January 05, 2025",
+    title: "How Project Management Ensures Timely & Quality Construction",
+    description:
+      "Discover how structured planning, coordination, and monitoring lead to efficient and on-time project delivery.",
   },
   {
     id: 5,
     image: blogimg5,
-    title:
-      "The Importance of Foundation Design: Building a Strong and Safe Structure",
+    date: "January 03, 2025",
+    title: "Why Strong Foundation Design Is the Heart of Every Structure",
+    description:
+      "Foundations determine safety and longevity — here's why expert engineering is crucial for every building.",
   },
   {
     id: 6,
     image: blogimg6,
-    title: "The Top 5 Mistakes to Avoid When Starting a Construction Project",
+    date: "January 01, 2025",
+    title: "Common Construction Mistakes and How to Avoid Them",
+    description:
+      "Avoid costly delays and structural issues with this guide to the most frequent mistakes made during construction.",
   },
   {
     id: 7,
     image: blogimg7,
-    title:
-      "Sustainable Construction: How Green Building Materials are Shaping the Future",
+    date: "December 28, 2024",
+    title: "How Green Construction Materials Are Transforming the Industry",
+    description:
+      "Sustainable materials are shaping a more responsible future — explore the benefits and modern applications.",
   },
   {
     id: 8,
     image: blogimg8,
-    title:
-      "Harnessing technology and sustainability for future-proof development",
+    date: "December 26, 2024",
+    title: "Building for the Future: Technology Meets Sustainable Development",
+    description:
+      "Learn how advanced tech and eco-friendly practices are creating smarter, more resilient construction solutions.",
   },
 ];
 
 export const featuredProjects = [
   {
     id: 1,
-    image: projectimg1,
-    linktext: "Industrial Construction",
-    title: "Greenfield Industrial Park",
+    image: projectimg4,
+    linktext: "Commercial San Francisco, CA",
+    title: "Usha Joshi Park Phase III",
   },
   {
     id: 2,
-    image: projectimg2,
-    linktext: "Institutional Building",
-    title: "Metro Convention Center",
+    image: projectimg14,
+    linktext: "Commercial Austin,TX",
+    title: "Ashraf Height",
   },
   {
     id: 3,
-    image: projectimg3,
-    linktext: "Educational Facility",
-    title: "Sunrise International School",
+    image: projectimg1,
+    linktext: "Industrial Construction New York, NY",
+    title: "Royal Residency",
   },
 ];
 
@@ -436,24 +531,25 @@ export const latestNews = [
   {
     id: 1,
     image: blogimg1,
-    title: "Innovative Trends in Modern Architecture and Building Design",
+    date: "January 12, 2025",
+    title: "Emerging Design Innovations Shaping Modern Architecture",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Non sapien mattis adipiscing aliquam. Adipiscing vitae non sagittis odio faucibus vel sed.",
+      "Explore the newest architectural concepts and design strategies redefining the way contemporary structures are created.",
   },
   {
     id: 2,
     image: blogimg2,
-    title:
-      "How to Choose the Right Contractor for Your Next Construction Project",
+    date: "January 10, 2025",
+    title: "A Complete Guide to Choosing the Right Contractor for Your Project",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Non sapien mattis adipiscing aliquam. Adipiscing vitae non sagittis odio faucibus vel sed.",
+      "Understand the key factors that help you evaluate contractors and ensure a smooth, successful construction journey.",
   },
   {
     id: 3,
     image: blogimg3,
-    title:
-      "Residential vs. Commercial Construction: Key Differences You Need to Know",
+    date: "January 08, 2025",
+    title: "Residential vs Commercial Construction: What Sets Them Apart?",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Non sapien mattis adipiscing aliquam. Adipiscing vitae non sagittis odio faucibus vel sed.",
+      "Learn the fundamental differences in planning, design, and execution between residential and commercial projects.",
   },
 ];

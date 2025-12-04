@@ -28,9 +28,7 @@ const Blog = () => {
                       alt="blog"
                     />
                   </div>
-                  <p className="mb-0 mt-3 text-deep-moss-green">
-                    November 24 ,2024
-                  </p>
+                  <p className="mb-0 mt-3 text-deep-moss-green">{blog.date}</p>
                   <div className="d-flex justify-content-between align-items-end mt-2 mb-4">
                     <h5 className="h4 mb-0 me-2 text-eerie-black fw-600">
                       {blog.title}
@@ -39,9 +37,7 @@ const Blog = () => {
                   </div>
                   <div className="border-silver-chalice border-top-0"></div>
                   <p className="text-dark-charcoal mt-3 mb-0">
-                    Lorem ipsum dolor sit amet consectetur. Non sapien mattis
-                    adipiscing aliquam. Adipiscing vitae non sagittis odio
-                    faucibus vel sed.
+                    {blog.description}
                   </p>
                 </div>
               </div>

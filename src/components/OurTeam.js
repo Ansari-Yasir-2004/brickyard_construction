@@ -13,12 +13,12 @@ const OurTeam = () => {
         <div className="text-center mb-5">
           <ContentHeadCapsul>Our Team</ContentHeadCapsul>
           <ContentTitle>
-            Meet Our <span className="text-deep-moss-green">Experienced</span>{" "}
-            Experts
+            Meet Our <span className="text-deep-moss-green">Skilled</span>{" "}
+            Professionals
           </ContentTitle>
           <ContentPara textColor={"text-nickel"}>
-            Our team consists of highly skilled professionals who bring
-            unmatched expertise and commitment to every project
+            A dedicated team of experts committed to delivering quality,
+            innovation, and excellence in every project.
           </ContentPara>
         </div>
         <PauseOnHover
@@ -53,9 +53,9 @@ const OurTeam = () => {
                             <path
                               d="M14.167 1.667h-2.5A4.166 4.166 0 0 0 7.5 5.834v2.5H5v3.333h2.5v6.667h3.333v-6.667h2.5l.834-3.333h-3.334v-2.5A.834.834 0 0 1 11.667 5h2.5z"
                               stroke="currentColor"
-                              stroke-width="1.25"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="1.25"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             />
                           </svg>
                         </span>
@@ -72,8 +72,8 @@ const OurTeam = () => {
                             <path
                               d="m14.015 17.307-10.89-14A.5.5 0 0 1 3.52 2.5h2.067a.5.5 0 0 1 .395.193l10.889 14a.5.5 0 0 1-.395.807h-2.067a.5.5 0 0 1-.394-.193ZM16.67 2.5l-13.334 15"
                               stroke="currentColor"
-                              stroke-width="1.25"
-                              stroke-linecap="round"
+                              strokeWidth="1.25"
+                              strokeLinecap="round"
                             />
                           </svg>
                         </span>
@@ -90,15 +90,15 @@ const OurTeam = () => {
                             <path
                               d="M9.997 13.334a3.333 3.333 0 1 0 0-6.667 3.333 3.333 0 0 0 0 6.667"
                               stroke="currentColor"
-                              stroke-width="1.25"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="1.25"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             />
                             <path
                               d="M2.5 13.333V6.667A4.167 4.167 0 0 1 6.667 2.5h6.666A4.167 4.167 0 0 1 17.5 6.667v6.666a4.167 4.167 0 0 1-4.167 4.167H6.667A4.167 4.167 0 0 1 2.5 13.333Z"
                               stroke="currentColor"
-                              stroke-width="1.25"
-                              stroke-linecap="round"
+                              strokeWidth="1.25"
+                              strokeLinecap="round"
                             />
                             <path
                               d="m14.586 5.425.008-.009z"
@@ -107,9 +107,9 @@ const OurTeam = () => {
                             <path
                               d="m14.586 5.425.008-.009"
                               stroke="currentColor"
-                              stroke-width="1.25"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="1.25"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             />
                           </svg>
                         </span>

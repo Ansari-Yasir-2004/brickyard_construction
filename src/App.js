@@ -9,11 +9,13 @@ import About from "./pages/About";
 import Service from "./pages/Service";
 import Projects from "./pages/Projects";
 import Blog from "./pages/Blog";
+import ScrollToTop from "./components/ScrollToTop";
 // import Shop from "./pages/Shop";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Home />} />

@@ -1,20 +1,25 @@
 /* CONTACT CSS */
 
-.contact-icon-wrapper{
-    width: 44px;
-    height: 44px;
+.contact-icon-wrapper {
+  width: 44px;
+  height: 44px;
 }
 
 .contact-icon-wrapper img {
-    height: 24px;
-    width: 24px;
-}
-.from-btn{
-    outline: none;
-    border: none;
-    background: none;
-}
-.section-map{
-    height: 490px;
+  height: 24px;
+  width: 24px;
 }
 
+.from-btn {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.section-map {
+  height: 490px;
+}
+
+.error {
+  color: red;
+}
