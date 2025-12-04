@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/brickyard_construction/static/css/main.a38417ae.css",
-    "main.js": "/brickyard_construction/static/js/main.b3cb1e35.js",
+    "main.js": "/brickyard_construction/static/js/main.659812df.js",
     "static/js/453.002048b8.chunk.js": "/brickyard_construction/static/js/453.002048b8.chunk.js",
     "static/media/Inter-VariableFont.ttf": "/brickyard_construction/static/media/Inter-VariableFont.e05c5f3d1fa6a3893d84.ttf",
     "static/media/ask-and-associates-projects-img-13.png": "/brickyard_construction/static/media/ask-and-associates-projects-img-13.2fff7fd1094e8782d495.png",
@@ -92,11 +92,11 @@
     "static/media/call-icon.webp": "/brickyard_construction/static/media/call-icon.b75a0e9aab0f0e05c90a.webp",
     "static/media/building-icon.webp": "/brickyard_construction/static/media/building-icon.a067d02e6d32de874817.webp",
     "main.a38417ae.css.map": "/brickyard_construction/static/css/main.a38417ae.css.map",
-    "main.b3cb1e35.js.map": "/brickyard_construction/static/js/main.b3cb1e35.js.map",
+    "main.659812df.js.map": "/brickyard_construction/static/js/main.659812df.js.map",
     "453.002048b8.chunk.js.map": "/brickyard_construction/static/js/453.002048b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a38417ae.css",
-    "static/js/main.b3cb1e35.js"
+    "static/js/main.659812df.js"
   ]
 }
